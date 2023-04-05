@@ -414,6 +414,7 @@ w.addEventListener("resize", (e) => {
   calcularAltoDivPrincipal();
 });
 
-d.addEventListener("DOMContentLoaded", (e) => {
+//Cargar seccion principal despues de cargar el HTML y los estilos
+w.addEventListener("load", (e) => {
   calcularAltoDivPrincipal();
 });
