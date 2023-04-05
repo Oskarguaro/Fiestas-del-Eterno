@@ -58,7 +58,7 @@ h1 {
   position: relative;
   padding: 5px 5px 20px 5px;
   border-bottom: 2px solid rgba(96, 224, 134, 0.815);
-  background-image: url("../../imagenes/fondo_festivo3.jpg");
+  background-image: url("../imagenes/fondo_festivo3.jpg");
   background-size: cover;
 }
 
@@ -180,7 +180,7 @@ h1 {
 
 #contenido-fiestas section {
   background-color: var(--colorFondoLink);
-  background-image: url("../../imagenes/fondo_roca_2.jpg");
+  background-image: url("../imagenes/fondo_roca_2.jpg");
   background-position: center;
   /* background-repeat: space; */
   border-radius: 10px;
