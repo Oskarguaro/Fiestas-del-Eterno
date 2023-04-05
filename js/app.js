@@ -128,14 +128,14 @@ let fiestasAnuales = [
     citas: "cita",
     reflexiones: ["Aquí van las reflexiones espirituales"],
   },
-  {
-    nombre: "Yom Teruah",
-    fechaInicio: "04/04/23 18:30:00",
-    fechaFinal: "04/05/23 18:30:00",
-    descripcion: "¿Qué se conmemora y cómo?",
-    citas: "cita",
-    reflexiones: ["Aquí van las reflexiones espirituales"],
-  },
+  // {
+  //   nombre: "Yom Teruah",
+  //   fechaInicio: "04/04/23 18:30:00",
+  //   fechaFinal: "04/05/23 18:30:00",
+  //   descripcion: "¿Qué se conmemora y cómo?",
+  //   citas: "cita",
+  //   reflexiones: ["Aquí van las reflexiones espirituales"],
+  // },
 ];
 
 //Ordenando Fiestas por fecha de inicio
