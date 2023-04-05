@@ -1,0 +1,1493 @@
+.fiesta-activa-large,
+.fiesta-activa-large-hover:hover {
+  /*
+   * Animation variables
+   */
+  /*
+   * Elements settings
+   */
+  /*
+   * Element animation delay loop
+   */
+}
+.fiesta-activa-large span,
+.fiesta-activa-large-hover:hover span {
+  animation-name: text-animado-color-large;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes text-animado-color-large {
+  0% {
+    color: hsl(0, 60%, 60%);
+  }
+  5% {
+    color: hsl(13, 60%, 60%);
+  }
+  10% {
+    color: hsl(194, 60%, 60%);
+  }
+  15% {
+    color: hsl(52, 60%, 60%);
+  }
+  20% {
+    color: hsl(180, 60%, 60%);
+  }
+  25% {
+    color: hsl(61, 60%, 60%);
+  }
+  30% {
+    color: hsl(31, 60%, 60%);
+  }
+  35% {
+    color: hsl(44, 60%, 60%);
+  }
+  40% {
+    color: hsl(249, 60%, 60%);
+  }
+  45% {
+    color: hsl(271, 60%, 60%);
+  }
+  50% {
+    color: hsl(113, 60%, 60%);
+  }
+  55% {
+    color: hsl(292, 60%, 60%);
+  }
+  60% {
+    color: hsl(70, 60%, 60%);
+  }
+  65% {
+    color: hsl(232, 60%, 60%);
+  }
+  70% {
+    color: hsl(357, 60%, 60%);
+  }
+  75% {
+    color: hsl(350, 60%, 60%);
+  }
+  80% {
+    color: hsl(82, 60%, 60%);
+  }
+  85% {
+    color: hsl(46, 60%, 60%);
+  }
+  90% {
+    color: hsl(178, 60%, 60%);
+  }
+  95% {
+    color: hsl(147, 60%, 60%);
+  }
+  100% {
+    color: hsl(253, 60%, 60%);
+  }
+  0% {
+    font-size: 100px;
+  }
+  25% {
+    font-size: 90px;
+  }
+  50% {
+    font-size: 90px;
+  }
+  100% {
+    font-size: 100px;
+  }
+}
+.fiesta-activa-large span:nth-of-type(1),
+.fiesta-activa-large-hover:hover span:nth-of-type(1) {
+  animation-delay: -19.8s;
+}
+.fiesta-activa-large span:nth-of-type(2),
+.fiesta-activa-large-hover:hover span:nth-of-type(2) {
+  animation-delay: -19.6s;
+}
+.fiesta-activa-large span:nth-of-type(3),
+.fiesta-activa-large-hover:hover span:nth-of-type(3) {
+  animation-delay: -19.4s;
+}
+.fiesta-activa-large span:nth-of-type(4),
+.fiesta-activa-large-hover:hover span:nth-of-type(4) {
+  animation-delay: -19.2s;
+}
+.fiesta-activa-large span:nth-of-type(5),
+.fiesta-activa-large-hover:hover span:nth-of-type(5) {
+  animation-delay: -19s;
+}
+.fiesta-activa-large span:nth-of-type(6),
+.fiesta-activa-large-hover:hover span:nth-of-type(6) {
+  animation-delay: -18.8s;
+}
+.fiesta-activa-large span:nth-of-type(7),
+.fiesta-activa-large-hover:hover span:nth-of-type(7) {
+  animation-delay: -18.6s;
+}
+.fiesta-activa-large span:nth-of-type(8),
+.fiesta-activa-large-hover:hover span:nth-of-type(8) {
+  animation-delay: -18.4s;
+}
+.fiesta-activa-large span:nth-of-type(9),
+.fiesta-activa-large-hover:hover span:nth-of-type(9) {
+  animation-delay: -18.2s;
+}
+.fiesta-activa-large span:nth-of-type(10),
+.fiesta-activa-large-hover:hover span:nth-of-type(10) {
+  animation-delay: -18s;
+}
+.fiesta-activa-large span:nth-of-type(11),
+.fiesta-activa-large-hover:hover span:nth-of-type(11) {
+  animation-delay: -17.8s;
+}
+.fiesta-activa-large span:nth-of-type(12),
+.fiesta-activa-large-hover:hover span:nth-of-type(12) {
+  animation-delay: -17.6s;
+}
+.fiesta-activa-large span:nth-of-type(13),
+.fiesta-activa-large-hover:hover span:nth-of-type(13) {
+  animation-delay: -17.4s;
+}
+.fiesta-activa-large span:nth-of-type(14),
+.fiesta-activa-large-hover:hover span:nth-of-type(14) {
+  animation-delay: -17.2s;
+}
+.fiesta-activa-large span:nth-of-type(15),
+.fiesta-activa-large-hover:hover span:nth-of-type(15) {
+  animation-delay: -17s;
+}
+.fiesta-activa-large span:nth-of-type(16),
+.fiesta-activa-large-hover:hover span:nth-of-type(16) {
+  animation-delay: -16.8s;
+}
+.fiesta-activa-large span:nth-of-type(17),
+.fiesta-activa-large-hover:hover span:nth-of-type(17) {
+  animation-delay: -16.6s;
+}
+.fiesta-activa-large span:nth-of-type(18),
+.fiesta-activa-large-hover:hover span:nth-of-type(18) {
+  animation-delay: -16.4s;
+}
+.fiesta-activa-large span:nth-of-type(19),
+.fiesta-activa-large-hover:hover span:nth-of-type(19) {
+  animation-delay: -16.2s;
+}
+.fiesta-activa-large span:nth-of-type(20),
+.fiesta-activa-large-hover:hover span:nth-of-type(20) {
+  animation-delay: -16s;
+}
+.fiesta-activa-large span:nth-of-type(21),
+.fiesta-activa-large-hover:hover span:nth-of-type(21) {
+  animation-delay: -15.8s;
+}
+.fiesta-activa-large span:nth-of-type(22),
+.fiesta-activa-large-hover:hover span:nth-of-type(22) {
+  animation-delay: -15.6s;
+}
+.fiesta-activa-large span:nth-of-type(23),
+.fiesta-activa-large-hover:hover span:nth-of-type(23) {
+  animation-delay: -15.4s;
+}
+.fiesta-activa-large span:nth-of-type(24),
+.fiesta-activa-large-hover:hover span:nth-of-type(24) {
+  animation-delay: -15.2s;
+}
+.fiesta-activa-large span:nth-of-type(25),
+.fiesta-activa-large-hover:hover span:nth-of-type(25) {
+  animation-delay: -15s;
+}
+.fiesta-activa-large span:nth-of-type(26),
+.fiesta-activa-large-hover:hover span:nth-of-type(26) {
+  animation-delay: -14.8s;
+}
+.fiesta-activa-large span:nth-of-type(27),
+.fiesta-activa-large-hover:hover span:nth-of-type(27) {
+  animation-delay: -14.6s;
+}
+.fiesta-activa-large span:nth-of-type(28),
+.fiesta-activa-large-hover:hover span:nth-of-type(28) {
+  animation-delay: -14.4s;
+}
+.fiesta-activa-large span:nth-of-type(29),
+.fiesta-activa-large-hover:hover span:nth-of-type(29) {
+  animation-delay: -14.2s;
+}
+.fiesta-activa-large span:nth-of-type(30),
+.fiesta-activa-large-hover:hover span:nth-of-type(30) {
+  animation-delay: -14s;
+}
+.fiesta-activa-large span:nth-of-type(31),
+.fiesta-activa-large-hover:hover span:nth-of-type(31) {
+  animation-delay: -13.8s;
+}
+.fiesta-activa-large span:nth-of-type(32),
+.fiesta-activa-large-hover:hover span:nth-of-type(32) {
+  animation-delay: -13.6s;
+}
+.fiesta-activa-large span:nth-of-type(33),
+.fiesta-activa-large-hover:hover span:nth-of-type(33) {
+  animation-delay: -13.4s;
+}
+.fiesta-activa-large span:nth-of-type(34),
+.fiesta-activa-large-hover:hover span:nth-of-type(34) {
+  animation-delay: -13.2s;
+}
+.fiesta-activa-large span:nth-of-type(35),
+.fiesta-activa-large-hover:hover span:nth-of-type(35) {
+  animation-delay: -13s;
+}
+.fiesta-activa-large span:nth-of-type(36),
+.fiesta-activa-large-hover:hover span:nth-of-type(36) {
+  animation-delay: -12.8s;
+}
+.fiesta-activa-large span:nth-of-type(37),
+.fiesta-activa-large-hover:hover span:nth-of-type(37) {
+  animation-delay: -12.6s;
+}
+.fiesta-activa-large span:nth-of-type(38),
+.fiesta-activa-large-hover:hover span:nth-of-type(38) {
+  animation-delay: -12.4s;
+}
+.fiesta-activa-large span:nth-of-type(39),
+.fiesta-activa-large-hover:hover span:nth-of-type(39) {
+  animation-delay: -12.2s;
+}
+.fiesta-activa-large span:nth-of-type(40),
+.fiesta-activa-large-hover:hover span:nth-of-type(40) {
+  animation-delay: -12s;
+}
+.fiesta-activa-large span:nth-of-type(41),
+.fiesta-activa-large-hover:hover span:nth-of-type(41) {
+  animation-delay: -11.8s;
+}
+.fiesta-activa-large span:nth-of-type(42),
+.fiesta-activa-large-hover:hover span:nth-of-type(42) {
+  animation-delay: -11.6s;
+}
+.fiesta-activa-large span:nth-of-type(43),
+.fiesta-activa-large-hover:hover span:nth-of-type(43) {
+  animation-delay: -11.4s;
+}
+.fiesta-activa-large span:nth-of-type(44),
+.fiesta-activa-large-hover:hover span:nth-of-type(44) {
+  animation-delay: -11.2s;
+}
+.fiesta-activa-large span:nth-of-type(45),
+.fiesta-activa-large-hover:hover span:nth-of-type(45) {
+  animation-delay: -11s;
+}
+.fiesta-activa-large span:nth-of-type(46),
+.fiesta-activa-large-hover:hover span:nth-of-type(46) {
+  animation-delay: -10.8s;
+}
+.fiesta-activa-large span:nth-of-type(47),
+.fiesta-activa-large-hover:hover span:nth-of-type(47) {
+  animation-delay: -10.6s;
+}
+.fiesta-activa-large span:nth-of-type(48),
+.fiesta-activa-large-hover:hover span:nth-of-type(48) {
+  animation-delay: -10.4s;
+}
+.fiesta-activa-large span:nth-of-type(49),
+.fiesta-activa-large-hover:hover span:nth-of-type(49) {
+  animation-delay: -10.2s;
+}
+.fiesta-activa-large span:nth-of-type(50),
+.fiesta-activa-large-hover:hover span:nth-of-type(50) {
+  animation-delay: -10s;
+}
+.fiesta-activa-large span:nth-of-type(51),
+.fiesta-activa-large-hover:hover span:nth-of-type(51) {
+  animation-delay: -9.8s;
+}
+.fiesta-activa-large span:nth-of-type(52),
+.fiesta-activa-large-hover:hover span:nth-of-type(52) {
+  animation-delay: -9.6s;
+}
+.fiesta-activa-large span:nth-of-type(53),
+.fiesta-activa-large-hover:hover span:nth-of-type(53) {
+  animation-delay: -9.4s;
+}
+.fiesta-activa-large span:nth-of-type(54),
+.fiesta-activa-large-hover:hover span:nth-of-type(54) {
+  animation-delay: -9.2s;
+}
+.fiesta-activa-large span:nth-of-type(55),
+.fiesta-activa-large-hover:hover span:nth-of-type(55) {
+  animation-delay: -9s;
+}
+.fiesta-activa-large span:nth-of-type(56),
+.fiesta-activa-large-hover:hover span:nth-of-type(56) {
+  animation-delay: -8.8s;
+}
+.fiesta-activa-large span:nth-of-type(57),
+.fiesta-activa-large-hover:hover span:nth-of-type(57) {
+  animation-delay: -8.6s;
+}
+.fiesta-activa-large span:nth-of-type(58),
+.fiesta-activa-large-hover:hover span:nth-of-type(58) {
+  animation-delay: -8.4s;
+}
+.fiesta-activa-large span:nth-of-type(59),
+.fiesta-activa-large-hover:hover span:nth-of-type(59) {
+  animation-delay: -8.2s;
+}
+.fiesta-activa-large span:nth-of-type(60),
+.fiesta-activa-large-hover:hover span:nth-of-type(60) {
+  animation-delay: -8s;
+}
+.fiesta-activa-large span:nth-of-type(61),
+.fiesta-activa-large-hover:hover span:nth-of-type(61) {
+  animation-delay: -7.8s;
+}
+.fiesta-activa-large span:nth-of-type(62),
+.fiesta-activa-large-hover:hover span:nth-of-type(62) {
+  animation-delay: -7.6s;
+}
+.fiesta-activa-large span:nth-of-type(63),
+.fiesta-activa-large-hover:hover span:nth-of-type(63) {
+  animation-delay: -7.4s;
+}
+.fiesta-activa-large span:nth-of-type(64),
+.fiesta-activa-large-hover:hover span:nth-of-type(64) {
+  animation-delay: -7.2s;
+}
+.fiesta-activa-large span:nth-of-type(65),
+.fiesta-activa-large-hover:hover span:nth-of-type(65) {
+  animation-delay: -7s;
+}
+.fiesta-activa-large span:nth-of-type(66),
+.fiesta-activa-large-hover:hover span:nth-of-type(66) {
+  animation-delay: -6.8s;
+}
+.fiesta-activa-large span:nth-of-type(67),
+.fiesta-activa-large-hover:hover span:nth-of-type(67) {
+  animation-delay: -6.6s;
+}
+.fiesta-activa-large span:nth-of-type(68),
+.fiesta-activa-large-hover:hover span:nth-of-type(68) {
+  animation-delay: -6.4s;
+}
+.fiesta-activa-large span:nth-of-type(69),
+.fiesta-activa-large-hover:hover span:nth-of-type(69) {
+  animation-delay: -6.2s;
+}
+.fiesta-activa-large span:nth-of-type(70),
+.fiesta-activa-large-hover:hover span:nth-of-type(70) {
+  animation-delay: -6s;
+}
+.fiesta-activa-large span:nth-of-type(71),
+.fiesta-activa-large-hover:hover span:nth-of-type(71) {
+  animation-delay: -5.8s;
+}
+.fiesta-activa-large span:nth-of-type(72),
+.fiesta-activa-large-hover:hover span:nth-of-type(72) {
+  animation-delay: -5.6s;
+}
+.fiesta-activa-large span:nth-of-type(73),
+.fiesta-activa-large-hover:hover span:nth-of-type(73) {
+  animation-delay: -5.4s;
+}
+.fiesta-activa-large span:nth-of-type(74),
+.fiesta-activa-large-hover:hover span:nth-of-type(74) {
+  animation-delay: -5.2s;
+}
+.fiesta-activa-large span:nth-of-type(75),
+.fiesta-activa-large-hover:hover span:nth-of-type(75) {
+  animation-delay: -5s;
+}
+.fiesta-activa-large span:nth-of-type(76),
+.fiesta-activa-large-hover:hover span:nth-of-type(76) {
+  animation-delay: -4.8s;
+}
+.fiesta-activa-large span:nth-of-type(77),
+.fiesta-activa-large-hover:hover span:nth-of-type(77) {
+  animation-delay: -4.6s;
+}
+.fiesta-activa-large span:nth-of-type(78),
+.fiesta-activa-large-hover:hover span:nth-of-type(78) {
+  animation-delay: -4.4s;
+}
+.fiesta-activa-large span:nth-of-type(79),
+.fiesta-activa-large-hover:hover span:nth-of-type(79) {
+  animation-delay: -4.2s;
+}
+.fiesta-activa-large span:nth-of-type(80),
+.fiesta-activa-large-hover:hover span:nth-of-type(80) {
+  animation-delay: -4s;
+}
+.fiesta-activa-large span:nth-of-type(81),
+.fiesta-activa-large-hover:hover span:nth-of-type(81) {
+  animation-delay: -3.8s;
+}
+.fiesta-activa-large span:nth-of-type(82),
+.fiesta-activa-large-hover:hover span:nth-of-type(82) {
+  animation-delay: -3.6s;
+}
+.fiesta-activa-large span:nth-of-type(83),
+.fiesta-activa-large-hover:hover span:nth-of-type(83) {
+  animation-delay: -3.4s;
+}
+.fiesta-activa-large span:nth-of-type(84),
+.fiesta-activa-large-hover:hover span:nth-of-type(84) {
+  animation-delay: -3.2s;
+}
+.fiesta-activa-large span:nth-of-type(85),
+.fiesta-activa-large-hover:hover span:nth-of-type(85) {
+  animation-delay: -3s;
+}
+.fiesta-activa-large span:nth-of-type(86),
+.fiesta-activa-large-hover:hover span:nth-of-type(86) {
+  animation-delay: -2.8s;
+}
+.fiesta-activa-large span:nth-of-type(87),
+.fiesta-activa-large-hover:hover span:nth-of-type(87) {
+  animation-delay: -2.6s;
+}
+.fiesta-activa-large span:nth-of-type(88),
+.fiesta-activa-large-hover:hover span:nth-of-type(88) {
+  animation-delay: -2.4s;
+}
+.fiesta-activa-large span:nth-of-type(89),
+.fiesta-activa-large-hover:hover span:nth-of-type(89) {
+  animation-delay: -2.2s;
+}
+.fiesta-activa-large span:nth-of-type(90),
+.fiesta-activa-large-hover:hover span:nth-of-type(90) {
+  animation-delay: -2s;
+}
+.fiesta-activa-large span:nth-of-type(91),
+.fiesta-activa-large-hover:hover span:nth-of-type(91) {
+  animation-delay: -1.8s;
+}
+.fiesta-activa-large span:nth-of-type(92),
+.fiesta-activa-large-hover:hover span:nth-of-type(92) {
+  animation-delay: -1.6s;
+}
+.fiesta-activa-large span:nth-of-type(93),
+.fiesta-activa-large-hover:hover span:nth-of-type(93) {
+  animation-delay: -1.4s;
+}
+.fiesta-activa-large span:nth-of-type(94),
+.fiesta-activa-large-hover:hover span:nth-of-type(94) {
+  animation-delay: -1.2s;
+}
+.fiesta-activa-large span:nth-of-type(95),
+.fiesta-activa-large-hover:hover span:nth-of-type(95) {
+  animation-delay: -1s;
+}
+.fiesta-activa-large span:nth-of-type(96),
+.fiesta-activa-large-hover:hover span:nth-of-type(96) {
+  animation-delay: -0.8s;
+}
+.fiesta-activa-large span:nth-of-type(97),
+.fiesta-activa-large-hover:hover span:nth-of-type(97) {
+  animation-delay: -0.6s;
+}
+.fiesta-activa-large span:nth-of-type(98),
+.fiesta-activa-large-hover:hover span:nth-of-type(98) {
+  animation-delay: -0.4s;
+}
+.fiesta-activa-large span:nth-of-type(99),
+.fiesta-activa-large-hover:hover span:nth-of-type(99) {
+  animation-delay: -0.2s;
+}
+.fiesta-activa-large span:nth-of-type(100),
+.fiesta-activa-large-hover:hover span:nth-of-type(100) {
+  animation-delay: 0s;
+}
+
+.fiesta-activa-medium,
+.fiesta-activa-medium-hover:hover {
+  /*
+   * Animation variables
+   */
+  /*
+   * Elements settings
+   */
+  /*
+   * Element animation delay loop
+   */
+}
+.fiesta-activa-medium span,
+.fiesta-activa-medium-hover:hover span {
+  animation-name: text-animado-color-medium;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes text-animado-color-medium {
+  0% {
+    color: hsl(219, 60%, 60%);
+  }
+  5% {
+    color: hsl(169, 60%, 60%);
+  }
+  10% {
+    color: hsl(46, 60%, 60%);
+  }
+  15% {
+    color: hsl(130, 60%, 60%);
+  }
+  20% {
+    color: hsl(220, 60%, 60%);
+  }
+  25% {
+    color: hsl(152, 60%, 60%);
+  }
+  30% {
+    color: hsl(119, 60%, 60%);
+  }
+  35% {
+    color: hsl(263, 60%, 60%);
+  }
+  40% {
+    color: hsl(150, 60%, 60%);
+  }
+  45% {
+    color: hsl(157, 60%, 60%);
+  }
+  50% {
+    color: hsl(34, 60%, 60%);
+  }
+  55% {
+    color: hsl(278, 60%, 60%);
+  }
+  60% {
+    color: hsl(99, 60%, 60%);
+  }
+  65% {
+    color: hsl(252, 60%, 60%);
+  }
+  70% {
+    color: hsl(78, 60%, 60%);
+  }
+  75% {
+    color: hsl(342, 60%, 60%);
+  }
+  80% {
+    color: hsl(331, 60%, 60%);
+  }
+  85% {
+    color: hsl(65, 60%, 60%);
+  }
+  90% {
+    color: hsl(258, 60%, 60%);
+  }
+  95% {
+    color: hsl(344, 60%, 60%);
+  }
+  100% {
+    color: hsl(121, 60%, 60%);
+  }
+  0% {
+    font-size: 75px;
+  }
+  25% {
+    font-size: 65px;
+  }
+  50% {
+    font-size: 65px;
+  }
+  100% {
+    font-size: 75px;
+  }
+}
+.fiesta-activa-medium span:nth-of-type(1),
+.fiesta-activa-medium-hover:hover span:nth-of-type(1) {
+  animation-delay: -19.8s;
+}
+.fiesta-activa-medium span:nth-of-type(2),
+.fiesta-activa-medium-hover:hover span:nth-of-type(2) {
+  animation-delay: -19.6s;
+}
+.fiesta-activa-medium span:nth-of-type(3),
+.fiesta-activa-medium-hover:hover span:nth-of-type(3) {
+  animation-delay: -19.4s;
+}
+.fiesta-activa-medium span:nth-of-type(4),
+.fiesta-activa-medium-hover:hover span:nth-of-type(4) {
+  animation-delay: -19.2s;
+}
+.fiesta-activa-medium span:nth-of-type(5),
+.fiesta-activa-medium-hover:hover span:nth-of-type(5) {
+  animation-delay: -19s;
+}
+.fiesta-activa-medium span:nth-of-type(6),
+.fiesta-activa-medium-hover:hover span:nth-of-type(6) {
+  animation-delay: -18.8s;
+}
+.fiesta-activa-medium span:nth-of-type(7),
+.fiesta-activa-medium-hover:hover span:nth-of-type(7) {
+  animation-delay: -18.6s;
+}
+.fiesta-activa-medium span:nth-of-type(8),
+.fiesta-activa-medium-hover:hover span:nth-of-type(8) {
+  animation-delay: -18.4s;
+}
+.fiesta-activa-medium span:nth-of-type(9),
+.fiesta-activa-medium-hover:hover span:nth-of-type(9) {
+  animation-delay: -18.2s;
+}
+.fiesta-activa-medium span:nth-of-type(10),
+.fiesta-activa-medium-hover:hover span:nth-of-type(10) {
+  animation-delay: -18s;
+}
+.fiesta-activa-medium span:nth-of-type(11),
+.fiesta-activa-medium-hover:hover span:nth-of-type(11) {
+  animation-delay: -17.8s;
+}
+.fiesta-activa-medium span:nth-of-type(12),
+.fiesta-activa-medium-hover:hover span:nth-of-type(12) {
+  animation-delay: -17.6s;
+}
+.fiesta-activa-medium span:nth-of-type(13),
+.fiesta-activa-medium-hover:hover span:nth-of-type(13) {
+  animation-delay: -17.4s;
+}
+.fiesta-activa-medium span:nth-of-type(14),
+.fiesta-activa-medium-hover:hover span:nth-of-type(14) {
+  animation-delay: -17.2s;
+}
+.fiesta-activa-medium span:nth-of-type(15),
+.fiesta-activa-medium-hover:hover span:nth-of-type(15) {
+  animation-delay: -17s;
+}
+.fiesta-activa-medium span:nth-of-type(16),
+.fiesta-activa-medium-hover:hover span:nth-of-type(16) {
+  animation-delay: -16.8s;
+}
+.fiesta-activa-medium span:nth-of-type(17),
+.fiesta-activa-medium-hover:hover span:nth-of-type(17) {
+  animation-delay: -16.6s;
+}
+.fiesta-activa-medium span:nth-of-type(18),
+.fiesta-activa-medium-hover:hover span:nth-of-type(18) {
+  animation-delay: -16.4s;
+}
+.fiesta-activa-medium span:nth-of-type(19),
+.fiesta-activa-medium-hover:hover span:nth-of-type(19) {
+  animation-delay: -16.2s;
+}
+.fiesta-activa-medium span:nth-of-type(20),
+.fiesta-activa-medium-hover:hover span:nth-of-type(20) {
+  animation-delay: -16s;
+}
+.fiesta-activa-medium span:nth-of-type(21),
+.fiesta-activa-medium-hover:hover span:nth-of-type(21) {
+  animation-delay: -15.8s;
+}
+.fiesta-activa-medium span:nth-of-type(22),
+.fiesta-activa-medium-hover:hover span:nth-of-type(22) {
+  animation-delay: -15.6s;
+}
+.fiesta-activa-medium span:nth-of-type(23),
+.fiesta-activa-medium-hover:hover span:nth-of-type(23) {
+  animation-delay: -15.4s;
+}
+.fiesta-activa-medium span:nth-of-type(24),
+.fiesta-activa-medium-hover:hover span:nth-of-type(24) {
+  animation-delay: -15.2s;
+}
+.fiesta-activa-medium span:nth-of-type(25),
+.fiesta-activa-medium-hover:hover span:nth-of-type(25) {
+  animation-delay: -15s;
+}
+.fiesta-activa-medium span:nth-of-type(26),
+.fiesta-activa-medium-hover:hover span:nth-of-type(26) {
+  animation-delay: -14.8s;
+}
+.fiesta-activa-medium span:nth-of-type(27),
+.fiesta-activa-medium-hover:hover span:nth-of-type(27) {
+  animation-delay: -14.6s;
+}
+.fiesta-activa-medium span:nth-of-type(28),
+.fiesta-activa-medium-hover:hover span:nth-of-type(28) {
+  animation-delay: -14.4s;
+}
+.fiesta-activa-medium span:nth-of-type(29),
+.fiesta-activa-medium-hover:hover span:nth-of-type(29) {
+  animation-delay: -14.2s;
+}
+.fiesta-activa-medium span:nth-of-type(30),
+.fiesta-activa-medium-hover:hover span:nth-of-type(30) {
+  animation-delay: -14s;
+}
+.fiesta-activa-medium span:nth-of-type(31),
+.fiesta-activa-medium-hover:hover span:nth-of-type(31) {
+  animation-delay: -13.8s;
+}
+.fiesta-activa-medium span:nth-of-type(32),
+.fiesta-activa-medium-hover:hover span:nth-of-type(32) {
+  animation-delay: -13.6s;
+}
+.fiesta-activa-medium span:nth-of-type(33),
+.fiesta-activa-medium-hover:hover span:nth-of-type(33) {
+  animation-delay: -13.4s;
+}
+.fiesta-activa-medium span:nth-of-type(34),
+.fiesta-activa-medium-hover:hover span:nth-of-type(34) {
+  animation-delay: -13.2s;
+}
+.fiesta-activa-medium span:nth-of-type(35),
+.fiesta-activa-medium-hover:hover span:nth-of-type(35) {
+  animation-delay: -13s;
+}
+.fiesta-activa-medium span:nth-of-type(36),
+.fiesta-activa-medium-hover:hover span:nth-of-type(36) {
+  animation-delay: -12.8s;
+}
+.fiesta-activa-medium span:nth-of-type(37),
+.fiesta-activa-medium-hover:hover span:nth-of-type(37) {
+  animation-delay: -12.6s;
+}
+.fiesta-activa-medium span:nth-of-type(38),
+.fiesta-activa-medium-hover:hover span:nth-of-type(38) {
+  animation-delay: -12.4s;
+}
+.fiesta-activa-medium span:nth-of-type(39),
+.fiesta-activa-medium-hover:hover span:nth-of-type(39) {
+  animation-delay: -12.2s;
+}
+.fiesta-activa-medium span:nth-of-type(40),
+.fiesta-activa-medium-hover:hover span:nth-of-type(40) {
+  animation-delay: -12s;
+}
+.fiesta-activa-medium span:nth-of-type(41),
+.fiesta-activa-medium-hover:hover span:nth-of-type(41) {
+  animation-delay: -11.8s;
+}
+.fiesta-activa-medium span:nth-of-type(42),
+.fiesta-activa-medium-hover:hover span:nth-of-type(42) {
+  animation-delay: -11.6s;
+}
+.fiesta-activa-medium span:nth-of-type(43),
+.fiesta-activa-medium-hover:hover span:nth-of-type(43) {
+  animation-delay: -11.4s;
+}
+.fiesta-activa-medium span:nth-of-type(44),
+.fiesta-activa-medium-hover:hover span:nth-of-type(44) {
+  animation-delay: -11.2s;
+}
+.fiesta-activa-medium span:nth-of-type(45),
+.fiesta-activa-medium-hover:hover span:nth-of-type(45) {
+  animation-delay: -11s;
+}
+.fiesta-activa-medium span:nth-of-type(46),
+.fiesta-activa-medium-hover:hover span:nth-of-type(46) {
+  animation-delay: -10.8s;
+}
+.fiesta-activa-medium span:nth-of-type(47),
+.fiesta-activa-medium-hover:hover span:nth-of-type(47) {
+  animation-delay: -10.6s;
+}
+.fiesta-activa-medium span:nth-of-type(48),
+.fiesta-activa-medium-hover:hover span:nth-of-type(48) {
+  animation-delay: -10.4s;
+}
+.fiesta-activa-medium span:nth-of-type(49),
+.fiesta-activa-medium-hover:hover span:nth-of-type(49) {
+  animation-delay: -10.2s;
+}
+.fiesta-activa-medium span:nth-of-type(50),
+.fiesta-activa-medium-hover:hover span:nth-of-type(50) {
+  animation-delay: -10s;
+}
+.fiesta-activa-medium span:nth-of-type(51),
+.fiesta-activa-medium-hover:hover span:nth-of-type(51) {
+  animation-delay: -9.8s;
+}
+.fiesta-activa-medium span:nth-of-type(52),
+.fiesta-activa-medium-hover:hover span:nth-of-type(52) {
+  animation-delay: -9.6s;
+}
+.fiesta-activa-medium span:nth-of-type(53),
+.fiesta-activa-medium-hover:hover span:nth-of-type(53) {
+  animation-delay: -9.4s;
+}
+.fiesta-activa-medium span:nth-of-type(54),
+.fiesta-activa-medium-hover:hover span:nth-of-type(54) {
+  animation-delay: -9.2s;
+}
+.fiesta-activa-medium span:nth-of-type(55),
+.fiesta-activa-medium-hover:hover span:nth-of-type(55) {
+  animation-delay: -9s;
+}
+.fiesta-activa-medium span:nth-of-type(56),
+.fiesta-activa-medium-hover:hover span:nth-of-type(56) {
+  animation-delay: -8.8s;
+}
+.fiesta-activa-medium span:nth-of-type(57),
+.fiesta-activa-medium-hover:hover span:nth-of-type(57) {
+  animation-delay: -8.6s;
+}
+.fiesta-activa-medium span:nth-of-type(58),
+.fiesta-activa-medium-hover:hover span:nth-of-type(58) {
+  animation-delay: -8.4s;
+}
+.fiesta-activa-medium span:nth-of-type(59),
+.fiesta-activa-medium-hover:hover span:nth-of-type(59) {
+  animation-delay: -8.2s;
+}
+.fiesta-activa-medium span:nth-of-type(60),
+.fiesta-activa-medium-hover:hover span:nth-of-type(60) {
+  animation-delay: -8s;
+}
+.fiesta-activa-medium span:nth-of-type(61),
+.fiesta-activa-medium-hover:hover span:nth-of-type(61) {
+  animation-delay: -7.8s;
+}
+.fiesta-activa-medium span:nth-of-type(62),
+.fiesta-activa-medium-hover:hover span:nth-of-type(62) {
+  animation-delay: -7.6s;
+}
+.fiesta-activa-medium span:nth-of-type(63),
+.fiesta-activa-medium-hover:hover span:nth-of-type(63) {
+  animation-delay: -7.4s;
+}
+.fiesta-activa-medium span:nth-of-type(64),
+.fiesta-activa-medium-hover:hover span:nth-of-type(64) {
+  animation-delay: -7.2s;
+}
+.fiesta-activa-medium span:nth-of-type(65),
+.fiesta-activa-medium-hover:hover span:nth-of-type(65) {
+  animation-delay: -7s;
+}
+.fiesta-activa-medium span:nth-of-type(66),
+.fiesta-activa-medium-hover:hover span:nth-of-type(66) {
+  animation-delay: -6.8s;
+}
+.fiesta-activa-medium span:nth-of-type(67),
+.fiesta-activa-medium-hover:hover span:nth-of-type(67) {
+  animation-delay: -6.6s;
+}
+.fiesta-activa-medium span:nth-of-type(68),
+.fiesta-activa-medium-hover:hover span:nth-of-type(68) {
+  animation-delay: -6.4s;
+}
+.fiesta-activa-medium span:nth-of-type(69),
+.fiesta-activa-medium-hover:hover span:nth-of-type(69) {
+  animation-delay: -6.2s;
+}
+.fiesta-activa-medium span:nth-of-type(70),
+.fiesta-activa-medium-hover:hover span:nth-of-type(70) {
+  animation-delay: -6s;
+}
+.fiesta-activa-medium span:nth-of-type(71),
+.fiesta-activa-medium-hover:hover span:nth-of-type(71) {
+  animation-delay: -5.8s;
+}
+.fiesta-activa-medium span:nth-of-type(72),
+.fiesta-activa-medium-hover:hover span:nth-of-type(72) {
+  animation-delay: -5.6s;
+}
+.fiesta-activa-medium span:nth-of-type(73),
+.fiesta-activa-medium-hover:hover span:nth-of-type(73) {
+  animation-delay: -5.4s;
+}
+.fiesta-activa-medium span:nth-of-type(74),
+.fiesta-activa-medium-hover:hover span:nth-of-type(74) {
+  animation-delay: -5.2s;
+}
+.fiesta-activa-medium span:nth-of-type(75),
+.fiesta-activa-medium-hover:hover span:nth-of-type(75) {
+  animation-delay: -5s;
+}
+.fiesta-activa-medium span:nth-of-type(76),
+.fiesta-activa-medium-hover:hover span:nth-of-type(76) {
+  animation-delay: -4.8s;
+}
+.fiesta-activa-medium span:nth-of-type(77),
+.fiesta-activa-medium-hover:hover span:nth-of-type(77) {
+  animation-delay: -4.6s;
+}
+.fiesta-activa-medium span:nth-of-type(78),
+.fiesta-activa-medium-hover:hover span:nth-of-type(78) {
+  animation-delay: -4.4s;
+}
+.fiesta-activa-medium span:nth-of-type(79),
+.fiesta-activa-medium-hover:hover span:nth-of-type(79) {
+  animation-delay: -4.2s;
+}
+.fiesta-activa-medium span:nth-of-type(80),
+.fiesta-activa-medium-hover:hover span:nth-of-type(80) {
+  animation-delay: -4s;
+}
+.fiesta-activa-medium span:nth-of-type(81),
+.fiesta-activa-medium-hover:hover span:nth-of-type(81) {
+  animation-delay: -3.8s;
+}
+.fiesta-activa-medium span:nth-of-type(82),
+.fiesta-activa-medium-hover:hover span:nth-of-type(82) {
+  animation-delay: -3.6s;
+}
+.fiesta-activa-medium span:nth-of-type(83),
+.fiesta-activa-medium-hover:hover span:nth-of-type(83) {
+  animation-delay: -3.4s;
+}
+.fiesta-activa-medium span:nth-of-type(84),
+.fiesta-activa-medium-hover:hover span:nth-of-type(84) {
+  animation-delay: -3.2s;
+}
+.fiesta-activa-medium span:nth-of-type(85),
+.fiesta-activa-medium-hover:hover span:nth-of-type(85) {
+  animation-delay: -3s;
+}
+.fiesta-activa-medium span:nth-of-type(86),
+.fiesta-activa-medium-hover:hover span:nth-of-type(86) {
+  animation-delay: -2.8s;
+}
+.fiesta-activa-medium span:nth-of-type(87),
+.fiesta-activa-medium-hover:hover span:nth-of-type(87) {
+  animation-delay: -2.6s;
+}
+.fiesta-activa-medium span:nth-of-type(88),
+.fiesta-activa-medium-hover:hover span:nth-of-type(88) {
+  animation-delay: -2.4s;
+}
+.fiesta-activa-medium span:nth-of-type(89),
+.fiesta-activa-medium-hover:hover span:nth-of-type(89) {
+  animation-delay: -2.2s;
+}
+.fiesta-activa-medium span:nth-of-type(90),
+.fiesta-activa-medium-hover:hover span:nth-of-type(90) {
+  animation-delay: -2s;
+}
+.fiesta-activa-medium span:nth-of-type(91),
+.fiesta-activa-medium-hover:hover span:nth-of-type(91) {
+  animation-delay: -1.8s;
+}
+.fiesta-activa-medium span:nth-of-type(92),
+.fiesta-activa-medium-hover:hover span:nth-of-type(92) {
+  animation-delay: -1.6s;
+}
+.fiesta-activa-medium span:nth-of-type(93),
+.fiesta-activa-medium-hover:hover span:nth-of-type(93) {
+  animation-delay: -1.4s;
+}
+.fiesta-activa-medium span:nth-of-type(94),
+.fiesta-activa-medium-hover:hover span:nth-of-type(94) {
+  animation-delay: -1.2s;
+}
+.fiesta-activa-medium span:nth-of-type(95),
+.fiesta-activa-medium-hover:hover span:nth-of-type(95) {
+  animation-delay: -1s;
+}
+.fiesta-activa-medium span:nth-of-type(96),
+.fiesta-activa-medium-hover:hover span:nth-of-type(96) {
+  animation-delay: -0.8s;
+}
+.fiesta-activa-medium span:nth-of-type(97),
+.fiesta-activa-medium-hover:hover span:nth-of-type(97) {
+  animation-delay: -0.6s;
+}
+.fiesta-activa-medium span:nth-of-type(98),
+.fiesta-activa-medium-hover:hover span:nth-of-type(98) {
+  animation-delay: -0.4s;
+}
+.fiesta-activa-medium span:nth-of-type(99),
+.fiesta-activa-medium-hover:hover span:nth-of-type(99) {
+  animation-delay: -0.2s;
+}
+.fiesta-activa-medium span:nth-of-type(100),
+.fiesta-activa-medium-hover:hover span:nth-of-type(100) {
+  animation-delay: 0s;
+}
+
+.fiesta-activa-small,
+.fiesta-activa-small-hover:hover {
+  /*
+   * Animation variables
+   */
+  /*
+   * Elements settings
+   */
+  /*
+   * Element animation delay loop
+   */
+}
+.fiesta-activa-small span,
+.fiesta-activa-small-hover:hover span {
+  animation-name: text-animado-color-small;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes text-animado-color-small {
+  0% {
+    color: hsl(335, 60%, 60%);
+  }
+  5% {
+    color: hsl(1, 60%, 60%);
+  }
+  10% {
+    color: hsl(25, 60%, 60%);
+  }
+  15% {
+    color: hsl(118, 60%, 60%);
+  }
+  20% {
+    color: hsl(290, 60%, 60%);
+  }
+  25% {
+    color: hsl(166, 60%, 60%);
+  }
+  30% {
+    color: hsl(34, 60%, 60%);
+  }
+  35% {
+    color: hsl(95, 60%, 60%);
+  }
+  40% {
+    color: hsl(69, 60%, 60%);
+  }
+  45% {
+    color: hsl(71, 60%, 60%);
+  }
+  50% {
+    color: hsl(123, 60%, 60%);
+  }
+  55% {
+    color: hsl(53, 60%, 60%);
+  }
+  60% {
+    color: hsl(328, 60%, 60%);
+  }
+  65% {
+    color: hsl(278, 60%, 60%);
+  }
+  70% {
+    color: hsl(29, 60%, 60%);
+  }
+  75% {
+    color: hsl(265, 60%, 60%);
+  }
+  80% {
+    color: hsl(230, 60%, 60%);
+  }
+  85% {
+    color: hsl(293, 60%, 60%);
+  }
+  90% {
+    color: hsl(173, 60%, 60%);
+  }
+  95% {
+    color: hsl(38, 60%, 60%);
+  }
+  100% {
+    color: hsl(214, 60%, 60%);
+  }
+  0% {
+    font-size: 40px;
+  }
+  25% {
+    font-size: 35px;
+  }
+  50% {
+    font-size: 35px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+.fiesta-activa-small span:nth-of-type(1),
+.fiesta-activa-small-hover:hover span:nth-of-type(1) {
+  animation-delay: -19.8s;
+}
+.fiesta-activa-small span:nth-of-type(2),
+.fiesta-activa-small-hover:hover span:nth-of-type(2) {
+  animation-delay: -19.6s;
+}
+.fiesta-activa-small span:nth-of-type(3),
+.fiesta-activa-small-hover:hover span:nth-of-type(3) {
+  animation-delay: -19.4s;
+}
+.fiesta-activa-small span:nth-of-type(4),
+.fiesta-activa-small-hover:hover span:nth-of-type(4) {
+  animation-delay: -19.2s;
+}
+.fiesta-activa-small span:nth-of-type(5),
+.fiesta-activa-small-hover:hover span:nth-of-type(5) {
+  animation-delay: -19s;
+}
+.fiesta-activa-small span:nth-of-type(6),
+.fiesta-activa-small-hover:hover span:nth-of-type(6) {
+  animation-delay: -18.8s;
+}
+.fiesta-activa-small span:nth-of-type(7),
+.fiesta-activa-small-hover:hover span:nth-of-type(7) {
+  animation-delay: -18.6s;
+}
+.fiesta-activa-small span:nth-of-type(8),
+.fiesta-activa-small-hover:hover span:nth-of-type(8) {
+  animation-delay: -18.4s;
+}
+.fiesta-activa-small span:nth-of-type(9),
+.fiesta-activa-small-hover:hover span:nth-of-type(9) {
+  animation-delay: -18.2s;
+}
+.fiesta-activa-small span:nth-of-type(10),
+.fiesta-activa-small-hover:hover span:nth-of-type(10) {
+  animation-delay: -18s;
+}
+.fiesta-activa-small span:nth-of-type(11),
+.fiesta-activa-small-hover:hover span:nth-of-type(11) {
+  animation-delay: -17.8s;
+}
+.fiesta-activa-small span:nth-of-type(12),
+.fiesta-activa-small-hover:hover span:nth-of-type(12) {
+  animation-delay: -17.6s;
+}
+.fiesta-activa-small span:nth-of-type(13),
+.fiesta-activa-small-hover:hover span:nth-of-type(13) {
+  animation-delay: -17.4s;
+}
+.fiesta-activa-small span:nth-of-type(14),
+.fiesta-activa-small-hover:hover span:nth-of-type(14) {
+  animation-delay: -17.2s;
+}
+.fiesta-activa-small span:nth-of-type(15),
+.fiesta-activa-small-hover:hover span:nth-of-type(15) {
+  animation-delay: -17s;
+}
+.fiesta-activa-small span:nth-of-type(16),
+.fiesta-activa-small-hover:hover span:nth-of-type(16) {
+  animation-delay: -16.8s;
+}
+.fiesta-activa-small span:nth-of-type(17),
+.fiesta-activa-small-hover:hover span:nth-of-type(17) {
+  animation-delay: -16.6s;
+}
+.fiesta-activa-small span:nth-of-type(18),
+.fiesta-activa-small-hover:hover span:nth-of-type(18) {
+  animation-delay: -16.4s;
+}
+.fiesta-activa-small span:nth-of-type(19),
+.fiesta-activa-small-hover:hover span:nth-of-type(19) {
+  animation-delay: -16.2s;
+}
+.fiesta-activa-small span:nth-of-type(20),
+.fiesta-activa-small-hover:hover span:nth-of-type(20) {
+  animation-delay: -16s;
+}
+.fiesta-activa-small span:nth-of-type(21),
+.fiesta-activa-small-hover:hover span:nth-of-type(21) {
+  animation-delay: -15.8s;
+}
+.fiesta-activa-small span:nth-of-type(22),
+.fiesta-activa-small-hover:hover span:nth-of-type(22) {
+  animation-delay: -15.6s;
+}
+.fiesta-activa-small span:nth-of-type(23),
+.fiesta-activa-small-hover:hover span:nth-of-type(23) {
+  animation-delay: -15.4s;
+}
+.fiesta-activa-small span:nth-of-type(24),
+.fiesta-activa-small-hover:hover span:nth-of-type(24) {
+  animation-delay: -15.2s;
+}
+.fiesta-activa-small span:nth-of-type(25),
+.fiesta-activa-small-hover:hover span:nth-of-type(25) {
+  animation-delay: -15s;
+}
+.fiesta-activa-small span:nth-of-type(26),
+.fiesta-activa-small-hover:hover span:nth-of-type(26) {
+  animation-delay: -14.8s;
+}
+.fiesta-activa-small span:nth-of-type(27),
+.fiesta-activa-small-hover:hover span:nth-of-type(27) {
+  animation-delay: -14.6s;
+}
+.fiesta-activa-small span:nth-of-type(28),
+.fiesta-activa-small-hover:hover span:nth-of-type(28) {
+  animation-delay: -14.4s;
+}
+.fiesta-activa-small span:nth-of-type(29),
+.fiesta-activa-small-hover:hover span:nth-of-type(29) {
+  animation-delay: -14.2s;
+}
+.fiesta-activa-small span:nth-of-type(30),
+.fiesta-activa-small-hover:hover span:nth-of-type(30) {
+  animation-delay: -14s;
+}
+.fiesta-activa-small span:nth-of-type(31),
+.fiesta-activa-small-hover:hover span:nth-of-type(31) {
+  animation-delay: -13.8s;
+}
+.fiesta-activa-small span:nth-of-type(32),
+.fiesta-activa-small-hover:hover span:nth-of-type(32) {
+  animation-delay: -13.6s;
+}
+.fiesta-activa-small span:nth-of-type(33),
+.fiesta-activa-small-hover:hover span:nth-of-type(33) {
+  animation-delay: -13.4s;
+}
+.fiesta-activa-small span:nth-of-type(34),
+.fiesta-activa-small-hover:hover span:nth-of-type(34) {
+  animation-delay: -13.2s;
+}
+.fiesta-activa-small span:nth-of-type(35),
+.fiesta-activa-small-hover:hover span:nth-of-type(35) {
+  animation-delay: -13s;
+}
+.fiesta-activa-small span:nth-of-type(36),
+.fiesta-activa-small-hover:hover span:nth-of-type(36) {
+  animation-delay: -12.8s;
+}
+.fiesta-activa-small span:nth-of-type(37),
+.fiesta-activa-small-hover:hover span:nth-of-type(37) {
+  animation-delay: -12.6s;
+}
+.fiesta-activa-small span:nth-of-type(38),
+.fiesta-activa-small-hover:hover span:nth-of-type(38) {
+  animation-delay: -12.4s;
+}
+.fiesta-activa-small span:nth-of-type(39),
+.fiesta-activa-small-hover:hover span:nth-of-type(39) {
+  animation-delay: -12.2s;
+}
+.fiesta-activa-small span:nth-of-type(40),
+.fiesta-activa-small-hover:hover span:nth-of-type(40) {
+  animation-delay: -12s;
+}
+.fiesta-activa-small span:nth-of-type(41),
+.fiesta-activa-small-hover:hover span:nth-of-type(41) {
+  animation-delay: -11.8s;
+}
+.fiesta-activa-small span:nth-of-type(42),
+.fiesta-activa-small-hover:hover span:nth-of-type(42) {
+  animation-delay: -11.6s;
+}
+.fiesta-activa-small span:nth-of-type(43),
+.fiesta-activa-small-hover:hover span:nth-of-type(43) {
+  animation-delay: -11.4s;
+}
+.fiesta-activa-small span:nth-of-type(44),
+.fiesta-activa-small-hover:hover span:nth-of-type(44) {
+  animation-delay: -11.2s;
+}
+.fiesta-activa-small span:nth-of-type(45),
+.fiesta-activa-small-hover:hover span:nth-of-type(45) {
+  animation-delay: -11s;
+}
+.fiesta-activa-small span:nth-of-type(46),
+.fiesta-activa-small-hover:hover span:nth-of-type(46) {
+  animation-delay: -10.8s;
+}
+.fiesta-activa-small span:nth-of-type(47),
+.fiesta-activa-small-hover:hover span:nth-of-type(47) {
+  animation-delay: -10.6s;
+}
+.fiesta-activa-small span:nth-of-type(48),
+.fiesta-activa-small-hover:hover span:nth-of-type(48) {
+  animation-delay: -10.4s;
+}
+.fiesta-activa-small span:nth-of-type(49),
+.fiesta-activa-small-hover:hover span:nth-of-type(49) {
+  animation-delay: -10.2s;
+}
+.fiesta-activa-small span:nth-of-type(50),
+.fiesta-activa-small-hover:hover span:nth-of-type(50) {
+  animation-delay: -10s;
+}
+.fiesta-activa-small span:nth-of-type(51),
+.fiesta-activa-small-hover:hover span:nth-of-type(51) {
+  animation-delay: -9.8s;
+}
+.fiesta-activa-small span:nth-of-type(52),
+.fiesta-activa-small-hover:hover span:nth-of-type(52) {
+  animation-delay: -9.6s;
+}
+.fiesta-activa-small span:nth-of-type(53),
+.fiesta-activa-small-hover:hover span:nth-of-type(53) {
+  animation-delay: -9.4s;
+}
+.fiesta-activa-small span:nth-of-type(54),
+.fiesta-activa-small-hover:hover span:nth-of-type(54) {
+  animation-delay: -9.2s;
+}
+.fiesta-activa-small span:nth-of-type(55),
+.fiesta-activa-small-hover:hover span:nth-of-type(55) {
+  animation-delay: -9s;
+}
+.fiesta-activa-small span:nth-of-type(56),
+.fiesta-activa-small-hover:hover span:nth-of-type(56) {
+  animation-delay: -8.8s;
+}
+.fiesta-activa-small span:nth-of-type(57),
+.fiesta-activa-small-hover:hover span:nth-of-type(57) {
+  animation-delay: -8.6s;
+}
+.fiesta-activa-small span:nth-of-type(58),
+.fiesta-activa-small-hover:hover span:nth-of-type(58) {
+  animation-delay: -8.4s;
+}
+.fiesta-activa-small span:nth-of-type(59),
+.fiesta-activa-small-hover:hover span:nth-of-type(59) {
+  animation-delay: -8.2s;
+}
+.fiesta-activa-small span:nth-of-type(60),
+.fiesta-activa-small-hover:hover span:nth-of-type(60) {
+  animation-delay: -8s;
+}
+.fiesta-activa-small span:nth-of-type(61),
+.fiesta-activa-small-hover:hover span:nth-of-type(61) {
+  animation-delay: -7.8s;
+}
+.fiesta-activa-small span:nth-of-type(62),
+.fiesta-activa-small-hover:hover span:nth-of-type(62) {
+  animation-delay: -7.6s;
+}
+.fiesta-activa-small span:nth-of-type(63),
+.fiesta-activa-small-hover:hover span:nth-of-type(63) {
+  animation-delay: -7.4s;
+}
+.fiesta-activa-small span:nth-of-type(64),
+.fiesta-activa-small-hover:hover span:nth-of-type(64) {
+  animation-delay: -7.2s;
+}
+.fiesta-activa-small span:nth-of-type(65),
+.fiesta-activa-small-hover:hover span:nth-of-type(65) {
+  animation-delay: -7s;
+}
+.fiesta-activa-small span:nth-of-type(66),
+.fiesta-activa-small-hover:hover span:nth-of-type(66) {
+  animation-delay: -6.8s;
+}
+.fiesta-activa-small span:nth-of-type(67),
+.fiesta-activa-small-hover:hover span:nth-of-type(67) {
+  animation-delay: -6.6s;
+}
+.fiesta-activa-small span:nth-of-type(68),
+.fiesta-activa-small-hover:hover span:nth-of-type(68) {
+  animation-delay: -6.4s;
+}
+.fiesta-activa-small span:nth-of-type(69),
+.fiesta-activa-small-hover:hover span:nth-of-type(69) {
+  animation-delay: -6.2s;
+}
+.fiesta-activa-small span:nth-of-type(70),
+.fiesta-activa-small-hover:hover span:nth-of-type(70) {
+  animation-delay: -6s;
+}
+.fiesta-activa-small span:nth-of-type(71),
+.fiesta-activa-small-hover:hover span:nth-of-type(71) {
+  animation-delay: -5.8s;
+}
+.fiesta-activa-small span:nth-of-type(72),
+.fiesta-activa-small-hover:hover span:nth-of-type(72) {
+  animation-delay: -5.6s;
+}
+.fiesta-activa-small span:nth-of-type(73),
+.fiesta-activa-small-hover:hover span:nth-of-type(73) {
+  animation-delay: -5.4s;
+}
+.fiesta-activa-small span:nth-of-type(74),
+.fiesta-activa-small-hover:hover span:nth-of-type(74) {
+  animation-delay: -5.2s;
+}
+.fiesta-activa-small span:nth-of-type(75),
+.fiesta-activa-small-hover:hover span:nth-of-type(75) {
+  animation-delay: -5s;
+}
+.fiesta-activa-small span:nth-of-type(76),
+.fiesta-activa-small-hover:hover span:nth-of-type(76) {
+  animation-delay: -4.8s;
+}
+.fiesta-activa-small span:nth-of-type(77),
+.fiesta-activa-small-hover:hover span:nth-of-type(77) {
+  animation-delay: -4.6s;
+}
+.fiesta-activa-small span:nth-of-type(78),
+.fiesta-activa-small-hover:hover span:nth-of-type(78) {
+  animation-delay: -4.4s;
+}
+.fiesta-activa-small span:nth-of-type(79),
+.fiesta-activa-small-hover:hover span:nth-of-type(79) {
+  animation-delay: -4.2s;
+}
+.fiesta-activa-small span:nth-of-type(80),
+.fiesta-activa-small-hover:hover span:nth-of-type(80) {
+  animation-delay: -4s;
+}
+.fiesta-activa-small span:nth-of-type(81),
+.fiesta-activa-small-hover:hover span:nth-of-type(81) {
+  animation-delay: -3.8s;
+}
+.fiesta-activa-small span:nth-of-type(82),
+.fiesta-activa-small-hover:hover span:nth-of-type(82) {
+  animation-delay: -3.6s;
+}
+.fiesta-activa-small span:nth-of-type(83),
+.fiesta-activa-small-hover:hover span:nth-of-type(83) {
+  animation-delay: -3.4s;
+}
+.fiesta-activa-small span:nth-of-type(84),
+.fiesta-activa-small-hover:hover span:nth-of-type(84) {
+  animation-delay: -3.2s;
+}
+.fiesta-activa-small span:nth-of-type(85),
+.fiesta-activa-small-hover:hover span:nth-of-type(85) {
+  animation-delay: -3s;
+}
+.fiesta-activa-small span:nth-of-type(86),
+.fiesta-activa-small-hover:hover span:nth-of-type(86) {
+  animation-delay: -2.8s;
+}
+.fiesta-activa-small span:nth-of-type(87),
+.fiesta-activa-small-hover:hover span:nth-of-type(87) {
+  animation-delay: -2.6s;
+}
+.fiesta-activa-small span:nth-of-type(88),
+.fiesta-activa-small-hover:hover span:nth-of-type(88) {
+  animation-delay: -2.4s;
+}
+.fiesta-activa-small span:nth-of-type(89),
+.fiesta-activa-small-hover:hover span:nth-of-type(89) {
+  animation-delay: -2.2s;
+}
+.fiesta-activa-small span:nth-of-type(90),
+.fiesta-activa-small-hover:hover span:nth-of-type(90) {
+  animation-delay: -2s;
+}
+.fiesta-activa-small span:nth-of-type(91),
+.fiesta-activa-small-hover:hover span:nth-of-type(91) {
+  animation-delay: -1.8s;
+}
+.fiesta-activa-small span:nth-of-type(92),
+.fiesta-activa-small-hover:hover span:nth-of-type(92) {
+  animation-delay: -1.6s;
+}
+.fiesta-activa-small span:nth-of-type(93),
+.fiesta-activa-small-hover:hover span:nth-of-type(93) {
+  animation-delay: -1.4s;
+}
+.fiesta-activa-small span:nth-of-type(94),
+.fiesta-activa-small-hover:hover span:nth-of-type(94) {
+  animation-delay: -1.2s;
+}
+.fiesta-activa-small span:nth-of-type(95),
+.fiesta-activa-small-hover:hover span:nth-of-type(95) {
+  animation-delay: -1s;
+}
+.fiesta-activa-small span:nth-of-type(96),
+.fiesta-activa-small-hover:hover span:nth-of-type(96) {
+  animation-delay: -0.8s;
+}
+.fiesta-activa-small span:nth-of-type(97),
+.fiesta-activa-small-hover:hover span:nth-of-type(97) {
+  animation-delay: -0.6s;
+}
+.fiesta-activa-small span:nth-of-type(98),
+.fiesta-activa-small-hover:hover span:nth-of-type(98) {
+  animation-delay: -0.4s;
+}
+.fiesta-activa-small span:nth-of-type(99),
+.fiesta-activa-small-hover:hover span:nth-of-type(99) {
+  animation-delay: -0.2s;
+}
+.fiesta-activa-small span:nth-of-type(100),
+.fiesta-activa-small-hover:hover span:nth-of-type(100) {
+  animation-delay: 0s;
+}/*# sourceMappingURL=estilosSASS.css.map */

@@ -1,0 +1,302 @@
+/* Variables Globales */
+:root {
+  --colorPrimario: rgba(109, 245, 18, 0.856);
+  --colorSecundario: rgba(245, 160, 3, 0.534);
+  --colorTerciario: rgb(12, 87, 184);
+  --colorCuaternario: rgb(255, 251, 0);
+  --colorFondoLink: rgb(193, 255, 79);
+  --colorDorado: rgb(255, 196, 0);
+  --colorInformacion: rgb(71, 150, 214);
+  --colorNav: rgb(115, 204, 245);
+}
+
+/* Estilos Globales */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: clamp(12px, 2vw, 16px);
+  /* font-weight: 600; */
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Titulo de la Página */
+#titulo-principal {
+  display: flex;
+  background: -webkit-linear-gradient(
+    var(--colorCuaternario),
+    var(--colorPrimario)
+  );
+  justify-content: center;
+  border-bottom: 2px solid rgba(0, 168, 0, 0.445);
+}
+
+#titulo-principal img {
+  align-self: center;
+  height: clamp(30px, 7vw, 60px);
+  margin: 0px 10px;
+}
+
+h1 {
+  font-family: "Rubik Vinyl", cursive;
+  color: var(--colorTerciario);
+  align-self: center;
+  text-align: center;
+  font-size: clamp(20px, 6vw, 50px);
+}
+
+/* Contenedor principal con temporizador */
+#principal {
+  position: relative;
+  padding: 5px 5px 20px 5px;
+  border-bottom: 2px solid rgba(96, 224, 134, 0.815);
+  background-image: url("../../imagenes/fondo_festivo3.jpg");
+  background-size: cover;
+}
+
+#principal-dark {
+  position: relative;
+  background-color: black;
+  border-bottom: 2px solid rgba(96, 224, 134, 0.5);
+}
+
+.reloj {
+  color: black;
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+.reloj-white {
+  color: white;
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+.seccion-titulo {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.temporizador p,
+.titulo-fiesta {
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  font-size: clamp(18px, 4vw, 35px);
+  font-weight: 200;
+  margin: 20px 10px;
+}
+
+.fiesta-activa-large,
+.fiesta-activa-medium,
+.fiesta-activa-small {
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.fiesta-activa-large span,
+.fiesta-activa-medium span,
+.fiesta-activa-small span {
+  /* background:-webkit-linear-gradient(yellow, var(--colorPrimario)); */
+  /* background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; */
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 100px;
+  font-weight: 200;
+}
+
+.descripcion,
+.citas {
+  margin: 5px 20px;
+}
+
+.citas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.citas a {
+  flex: 1 auto 24%;
+  margin-right: 10px;
+  padding: 1px 3px;
+  text-decoration: none;
+}
+
+.citas a:hover {
+  background-color: var(--colorFondoLink);
+}
+
+.btn-more {
+  position: relative;
+  background-color: var(--colorInformacion);
+  cursor: pointer;
+  color: white;
+  font-size: clamp(12px, 2vw, 14px);
+  padding: 5px 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  left: calc(50vw - 50px);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-more:hover {
+  background-color: rgba(71, 150, 214, 0.767);
+}
+
+/* Contenedor de la información de las Fiestas */
+#container {
+  display: flex;
+  position: fixed;
+  /* bottom: calc(22px + 2px); */
+  opacity: 0;
+  /* height: calc(100vh - 62px - 314px); */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translate(0, 100%);
+}
+
+#container.is-active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+#contenido-fiestas {
+  flex: 1 1 70%;
+  padding-bottom: 10px;
+  overflow-y: scroll;
+  background-color: rgba(134, 207, 231, 0.493);
+}
+
+#contenido-fiestas section {
+  background-color: var(--colorFondoLink);
+  background-image: url("../../imagenes/fondo_roca_2.jpg");
+  background-position: center;
+  /* background-repeat: space; */
+  border-radius: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+
+#contenido-fiestas .titulo-fiesta {
+  text-align: left;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: clamp(18px, 4vw, 25px);
+  margin: 10px 20px 0px 20px;
+}
+
+h4 {
+  margin: 10px 20px 0px 20px;
+}
+
+.inicia,
+.finaliza {
+  font-size: clamp(10px, 2vw, 14px);
+  font-weight: 600;
+  margin: 20px;
+}
+
+.reflexiones {
+  margin: 5px 15px 5px calc(15px + 22px);
+  padding: 0px 0px 15px 0px;
+}
+
+#navegacion {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  color: var(--colorNav);
+  padding: 15px;
+}
+
+#navegacion h2 {
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#navegacion a {
+  text-decoration: none;
+  color: inherit;
+  font-size: clamp(14px, 2vw, 18px);
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease;
+}
+
+#navegacion a:hover {
+  background-color: var(--colorNav);
+  color: black;
+  font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  color: rgb(129, 223, 36);
+  text-align: center;
+}
+
+/* Estilos responsives */
+@media all and (max-width: 690px) {
+  #contenido-fiestas section {
+    margin: 5px;
+  }
+
+  #contenido-fiestas .titulo-fiesta {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .inicia,
+  .finaliza {
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  h4 {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .descripcion,
+  .citas {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .reflexiones {
+    margin: 5px 10px 5px calc(10px + 18px);
+    padding: 0px 0px 15px 0px;
+  }
+
+  #navegacion {
+    padding: 5px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #navegacion a {
+    padding: 2px 5px;
+  }
+}
+
+@media all and (max-width: 344px) {
+  #titulo-principal img {
+    height: 50px;
+  }
+}

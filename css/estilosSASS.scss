@@ -1,0 +1,193 @@
+//OJO para trabajar este tipo de archivos y que puedan ser modiicados es necesario abrir el css y el cscc al tiempo
+
+.fiesta-activa-large,
+.fiesta-activa-large-hover:hover {
+  /*
+   * Animation variables
+   */
+  $animationSteps: 20;
+  $animationDuration: 5;
+  $animationElement: span;
+  $animationElementsCount: 100;
+  $delayBetweenLetters: 0.2;
+//   $randomSize: random(100);
+
+  /*
+   * Elements settings
+   */
+  #{$animationElement} {
+    animation-name: text-animado-color-large;
+    animation-duration: #{$animationDuration}s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+
+    //   /*
+    //    * Keyframe loop
+    //    */
+
+    @keyframes text-animado-color-large {
+        @for $i from 0 through $animationSteps {
+          #{percentage($i * (1 / $animationSteps))} {
+            color: hsla(random(365), 60, 60, 1);
+            // font-size: $randomSize + px;
+          }
+        }
+
+        0% {
+            font-size: 100px;
+        }   
+
+        25% {
+            font-size: 90px;
+        }
+
+        50% {
+            font-size: 90px;
+        }   
+
+        100% {
+            font-size: 100px;
+        }
+    }
+
+    /*
+     * Element animation delay loop
+     */
+    $totalDelayTime: $animationElementsCount * $delayBetweenLetters;
+
+    @for $i from 1 through $animationElementsCount {
+      #{$animationElement}:nth-of-type(#{$i}) {
+        animation-delay: #{($i * $delayBetweenLetters) - $totalDelayTime}s;
+      }
+    }
+}
+
+.fiesta-activa-medium,
+.fiesta-activa-medium-hover:hover {
+  /*
+   * Animation variables
+   */
+  $animationSteps: 20;
+  $animationDuration: 5;
+  $animationElement: span;
+  $animationElementsCount: 100;
+  $delayBetweenLetters: 0.2;
+//   $randomSize: random(100);
+
+  /*
+   * Elements settings
+   */
+  #{$animationElement} {
+    animation-name: text-animado-color-medium;
+    animation-duration: #{$animationDuration}s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+
+    //   /*
+    //    * Keyframe loop
+    //    */
+
+    @keyframes text-animado-color-medium {
+        @for $i from 0 through $animationSteps {
+          #{percentage($i * (1 / $animationSteps))} {
+            color: hsla(random(365), 60, 60, 1);
+            // font-size: $randomSize + px;
+          }
+        }
+
+        0% {
+            font-size: 75px;
+        }   
+
+        25% {
+            font-size: 65px;
+        }
+
+        50% {
+            font-size: 65px;
+        }   
+
+        100% {
+            font-size: 75px;
+        }
+    }
+
+    /*
+     * Element animation delay loop
+     */
+    $totalDelayTime: $animationElementsCount * $delayBetweenLetters;
+
+    @for $i from 1 through $animationElementsCount {
+      #{$animationElement}:nth-of-type(#{$i}) {
+        animation-delay: #{($i * $delayBetweenLetters) - $totalDelayTime}s;
+      }
+    }
+}
+
+.fiesta-activa-small,
+.fiesta-activa-small-hover:hover {
+  /*
+   * Animation variables
+   */
+  $animationSteps: 20;
+  $animationDuration: 5;
+  $animationElement: span;
+  $animationElementsCount: 100;
+  $delayBetweenLetters: 0.2;
+//   $randomSize: random(100);
+
+  /*
+   * Elements settings
+   */
+  #{$animationElement} {
+    animation-name: text-animado-color-small;
+    animation-duration: #{$animationDuration}s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+
+    //   /*
+    //    * Keyframe loop
+    //    */
+
+    @keyframes text-animado-color-small {
+        @for $i from 0 through $animationSteps {
+          #{percentage($i * (1 / $animationSteps))} {
+            color: hsla(random(365), 60, 60, 1);
+            // font-size: $randomSize + px;
+          }
+        }
+
+        0% {
+            font-size: 40px;
+        }   
+
+        25% {
+            font-size: 35px;
+        }
+
+        50% {
+            font-size: 35px;
+        }   
+
+        100% {
+            font-size: 40px;
+        }
+    }
+
+    /*
+     * Element animation delay loop
+     */
+    $totalDelayTime: $animationElementsCount * $delayBetweenLetters;
+
+    @for $i from 1 through $animationElementsCount {
+      #{$animationElement}:nth-of-type(#{$i}) {
+        animation-delay: #{($i * $delayBetweenLetters) - $totalDelayTime}s;
+      }
+    }
+}
