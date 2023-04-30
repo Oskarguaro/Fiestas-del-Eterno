@@ -14,23 +14,26 @@ const $divPrincipal =
   $btnMas = d.querySelector(".btn-more"),
   $container = d.getElementById("container"),
   $contenidoFiestas = d.getElementById("contenido-fiestas"),
-  $menuNav = d.getElementById("navegacion");
+  $menuNav = d.getElementById("navegacion"),
+  $footer = d.querySelector("footer");
 
 //Calculando alto del div principal
 function calcularAltoDivPrincipal() {
+  $divPrincipal.style.height = "auto";
+  d.querySelector("footer").style.position = "relative";
+
   let alturaTitulo = d.getElementById("titulo-principal").offsetHeight,
     alturaFooter = d.querySelector("footer").offsetHeight,
-    alturaHTML = d.querySelector("html").scrollHeight,
-    alturaVentana = w.innerHeight;
+    alturaVentana = w.innerHeight,
+    alturaHTML = d.querySelector("html").scrollHeight;
+
+  // console.log(`tamaño html`, alturaHTML, alturaVentana);
+
   if (alturaHTML <= alturaVentana || $btnMas.textContent === "Regresar") {
     let alturaDivPrincipal = w.innerHeight - alturaTitulo - alturaFooter;
     $divPrincipal.style.height = `${alturaDivPrincipal}px`;
     d.querySelector("footer").style.position = "fixed";
     // console.log(`tamaño ventana`, alturaHTML, alturaVentana);
-  } else {
-    $divPrincipal.style.height = `auto`;
-    d.querySelector("footer").style.position = "relative";
-    // console.log(`tamaño html`, alturaHTML, alturaVentana);
   }
 }
 
@@ -76,7 +79,7 @@ let fiestasAnuales = [
     fechaInicio: "04/06/23 18:30:00",
     fechaFinal: "04/07/23 18:30:00",
     descripcion:
-      "Esta fiesta representa la salida de Egipto, en lo espiritual la desición de apartarnos del pecado.",
+      "Esta fiesta representa la salida de Egipto, en lo espiritual la decisión de apartarnos del pecado.",
     citas: "Proverbios 3",
     reflexiones: ["Aquí van las reflexiones espirituales"],
   },
@@ -92,9 +95,13 @@ let fiestasAnuales = [
     nombre: "Pesaj Shení",
     fechaInicio: "05/04/23 18:30:00",
     fechaFinal: "05/05/23 18:30:00",
-    descripcion: "¿Qué se conmemora y cómo?",
-    citas: "Números 9:7-12",
-    reflexiones: ["Aquí van las reflexiones espirituales"],
+    descripcion:
+      "En Pesaj Shení (Segundo Pesaj) se commemora y celebra las mismas razones que en la fiesta de Pesaj, la preparación se realiza de la misma forma, se aparta el Korbán Pesaj (Sacrificio Pascual) el día 10 del més segundo (Iyar o Zif) y se come asado el día 14 del mes. Se como con matza (Pan sin levadura) y maror (Hierbas amargas). Esta fiesta respresemta una segunda oportnidad para comer de Pesaj para aquellos que por algún motivo no pudieron el día 14 del mes de Aviv.",
+    citas: "Números 9:7-13; Éxodo 16:1; 2 Crónicas 30:2-15; 2 Crónicas 35",
+    reflexiones: [
+      "La fiesta de Pesaj tiene una gran importancia espiritual porque respresenta nuestra libertad a los pecados al aceptar la Sangre del Mashiaj, es la única fiesta que el Eterno permitió ser celebrada nuevamente (segunda opotunidad) para aquellos que no podían guadarla en el mes de Aviv, el Eterno indica que nadie se puede sin comer de Pesaj porque sería cortado del pueblo. Pesaj es el primer paso para la conversión de nuestras almas.",
+      "El Eterno estípulo Pesaj Shení para que no fuermos a comer de Pesaj estando impuros, contaminados de pecado pero al mismo tiempo no quiere que ninguno pierda la oportunidad de limpiarse y comer de Su Pesaj",
+    ],
   },
   {
     nombre: "Shavuot",
@@ -128,14 +135,22 @@ let fiestasAnuales = [
     citas: "cita",
     reflexiones: ["Aquí van las reflexiones espirituales"],
   },
-  // {
-  //   nombre: "Yom Teruah",
-  //   fechaInicio: "04/04/23 18:30:00",
-  //   fechaFinal: "04/05/23 18:30:00",
-  //   descripcion: "¿Qué se conmemora y cómo?",
-  //   citas: "cita",
-  //   reflexiones: ["Aquí van las reflexiones espirituales"],
-  // },
+  {
+    nombre: "Purim",
+    fechaInicio: "04/20/23 18:30:00",
+    fechaFinal: "04/21/23 18:30:00",
+    descripcion: `La fiesta de Pesaj (Pasar por alto), conmemora la liberación de Israel de la esclavitud de Egipto y el sacrificio de nuestro Adón (Señor) Yahshua Hamashiaj. Ambos sucesos representan en lo espiritual la oportunidad de ser "libres del pecado". Inicia a la puesta de sol del día 14 de Aviv (Nisán) y finaliza a la puesta de sol del día siguiente. En la preparación para la fiesta se ordena apartar un cordero, macho de un 1 año sin defecto, por familia desde el día 10 de Aviv (Nisán), si la familia es muy pequeña se debe compartir con el vecino cercano. El cordero servirá de sacrificio el día de inicio de Pesaj y se comerá asado al fuego con matzah (pan sin levadura) y maror (hierbas amargas). Además el Eterno ordena no comer nada leudado y sacar toda la levadura de los hogares, ya que esta representa el "pecado". Todo lo que no se consumiere del cordero en este día debe ser quemado al fuego.`,
+    citas:
+      "Éxodo 12:1-28,43-49; Éxodo 16:12; Éxodo 34:24-25; Números 9:1-5; Levítico 23:4; Deuteronomio 16:1-8; Josué 5:10; 2Reyes 23:21-23; 2Crónicas 30:1-5; Esdras 6:19-21; Ezequiel 45:21-24; Mateo 26:17-19; Marcos 14:12-16; Lucas 2:41-42; Lucas 22:7-13,15; Juan 1:29; Juan 2:23; Juan 6:4; Juan 11:55; Juan 19:36; Hechos 12:4; 1Corintios 5:7; Apocalipsis 5:5-6",
+    reflexiones: [
+      `La "muerte a los pecados" o "salir de Egipto" implica renunciar a los malos deseos de la carne para ser kadosh (apartado) delante del Eterno. Este hecho a su vez tiene su punto fundamental en un genuino Teshuvá (Arrepentimiento) el cual nos lleva a reconocer nuestra naturaleza pecaminosa y buscar nuestra redención (limpieza) en la Sangre de nuestro Mashiaj Yahshua, porque donde hay un teshuvá genuino no vuelve a haber pecado.`,
+      `En la fiesta el Eterno nos exhorta a llevar una vida sin levadura (Pecado, Orgullo) y ser humildes (Matzah), desechándola de nuestros corazones (Hogar espiritual). Por esta razón nuestro Adón Yahshua se comparó con el matzah (Pan ácimo) cuando comía la cena de Pesaj con sus Talmidín (Discípulos).`,
+      `El compartir el cordero asado entre familias pequeñas nos invita a ser compasivos, piadosos, generosos, unánimes y más con los creyentes y temerosos del Eterno.`,
+      `Pesaj singnifica "pasar por alto" o "salto" indicando que el Eterno no traería su juicio contra aquellos que se encontraran regocijados en sus hogares y cuyos dinteles y postes tenían la señal de sangre del sacrificio. En lo espiritual esto tiene mucha connotación, ya que el hogar hace referencia además del lugar físico a nuestro corazón. La Sangre es el creer, aceptar y obedecer el Sacrificio Perfecto (Yahshua Hamashiaj) y así estaremos protegidos de los juicios que el Eterno traerá sobre la tierra o las naciones (Egipto) al final de los tiempos. Nuestro corazón tiene una puerta la cual puede dejar entrar las cosas buenas o las cosas malas, si esa puerta fue marcada con la Sangre del Mashiaj, entrarán cosas buenas (santidad) y así debemos perseverar hasta el fin para ser salvos.`,
+      `En la cita Éxo 34:24 vemos que el pueblo tenía que dejar sus tierras para subir a Yahrushalayim (Jerusalén) a observar las fiestas del Eterno y Él les dijo que confiaran que las otras naciones no vendrían a robar sus tierras, porque ellas conocían el Poder y las Obras del Eterno y por ello temían ante el Nombre de YHWH; dándonos una lección de no poner nuestro corazón en las cosas terrenales sino en las espirituales (santidad al Eterno), obedeciendo su Torah.`,
+      `El pueblo tenía que subir a purificarse antes de Pesaj, no podía comer Pesaj siendo inmundo.`,
+    ],
+  },
 ];
 
 //Ordenando Fiestas por fecha de inicio
@@ -367,14 +382,33 @@ function pintarAnimacionFiesta({ nombre }) {
 //Calcular dimensiones del contenido de las Fiestas
 function tamañoSeccionFiestas() {
   if ($container.classList.value === "is-active") {
-    //Calculando top
+    //Calculando altura del Contenido en pantallas small
+    $container.style.height = "max-content";
+    $menuNav.style.height = "max-content";
+
+    $container.style.paddingBottom = "15px";
+    let alturaMenu = $menuNav.offsetHeight;
+    $contenidoFiestas.style.height = `${alturaMenu}px`;
+
+    //Calculando top del Contenido
+    let alturaH1 = d.getElementById("titulo-principal");
     $container.style.top = `${
-      $btnMas.getBoundingClientRect().top + $btnMas.offsetHeight + 15
+      $btnMas.offsetTop + $btnMas.offsetHeight + alturaH1.offsetHeight + 15
     }px`;
 
-    //Calculando bottom
-    let alturaFooter = d.querySelector("footer").offsetHeight;
-    $container.style.bottom = `${alturaFooter + 2}px`;
+    //Calculando altura del contenido en pantallas large y medium
+    let alturaDivPrincipal = $divPrincipal.getBoundingClientRect().height,
+      tamañoSmallMenu =
+        alturaMenu + $container.offsetTop - alturaH1.offsetHeight;
+
+    if (alturaDivPrincipal > tamañoSmallMenu) {
+      // console.log("El div Principal es más grande");
+      $container.style.bottom = `0px`;
+      $container.style.height = "auto";
+      $container.style.paddingBottom = "0px";
+      $menuNav.style.height = "auto";
+      $contenidoFiestas.style.height = `auto`;
+    }
   }
 }
 
@@ -388,11 +422,10 @@ d.addEventListener("click", (e) => {
     $container.classList.add("is-active");
 
     // console.log($btnMas.getBoundingClientRect(), $btnMas.clientTop);
-    tamañoSeccionFiestas();
-
     $btnMas.textContent = "Regresar";
 
     calcularAltoDivPrincipal();
+    tamañoSeccionFiestas();
   } else if (e.target.textContent === "Regresar") {
     const $seccionPadre = d.querySelector("#principal .descripcion").parentNode,
       $container = d.getElementById("container");
@@ -408,7 +441,9 @@ d.addEventListener("click", (e) => {
 
 w.addEventListener("resize", (e) => {
   //Calcular tamaño del menu fiestas
-  tamañoSeccionFiestas();
+  setTimeout(() => {
+    tamañoSeccionFiestas();
+  }, 160);
 
   //calcular tamaño de la ventana principal
   calcularAltoDivPrincipal();

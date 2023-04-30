@@ -57,7 +57,6 @@ h1 {
 #principal {
   position: relative;
   padding: 5px 5px 20px 5px;
-  border-bottom: 2px solid rgba(96, 224, 134, 0.815);
   background-image: url("../imagenes/fondo_festivo3.jpg");
   background-size: cover;
 }
@@ -159,14 +158,14 @@ h1 {
 #container {
   display: flex;
   position: fixed;
-  /* bottom: calc(22px + 2px); */
   opacity: 0;
-  /* height: calc(100vh - 62px - 314px); */
+  height: max-content;
   transition: transform 0.3s ease, opacity 0.3s ease;
-  transform: translate(0, 100%);
+  transform: translate(0, 100vh);
 }
 
 #container.is-active {
+  position: absolute;
   transform: translate(0, 0);
   opacity: 1;
 }
@@ -219,6 +218,7 @@ h4 {
   background-color: rgb(0, 0, 0);
   color: var(--colorNav);
   padding: 15px;
+  height: max-content;
 }
 
 #navegacion h2 {
@@ -249,6 +249,7 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
+  border-top: 2px solid rgba(96, 224, 134, 0.815);
   background-color: black;
   color: rgb(129, 223, 36);
   text-align: center;
