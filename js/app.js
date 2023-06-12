@@ -34,11 +34,6 @@ function calcularAltoBody() {
     // console.log("condición 2");
     body.style.height = `${html.offsetHeight}px`;
   }
-
-  //Estableciendo altura del fondo de pantalla
-  body.offsetWidth / body.offsetHeight > 740 / 682
-    ? (body.className = "body-desktop")
-    : (body.className = "body-mobile");
 }
 
 //Generando reloj dinámico
@@ -153,18 +148,18 @@ let fiestasAnuales = [
   },
   // {
   //   nombre: "Purim",
-  //   fechaInicio: "05/09/23 18:30:00",
-  //   fechaFinal: "05/10/23 18:30:00",
-  //   descripcion: `La fiesta de Pesaj (Pasar por alto), conmemora la liberación de Israel de la esclavitud de Egipto y el sacrificio de nuestro Adón (Señor) Yahshua Hamashiaj. Ambos sucesos representan en lo espiritual la oportunidad de ser "libres del pecado". Inicia a la puesta de sol del día 14 de Aviv (Nisán) y finaliza a la puesta de sol del día siguiente. En la preparación para la fiesta se ordena apartar un cordero, macho de un 1 año sin defecto, por familia desde el día 10 de Aviv (Nisán), si la familia es muy pequeña se debe compartir con el vecino cercano. El cordero servirá de sacrificio el día de inicio de Pesaj y se comerá asado al fuego con matzah (pan sin levadura) y maror (hierbas amargas). Además el Eterno ordena no comer nada leudado y sacar toda la levadura de los hogares, ya que esta representa el "pecado". Todo lo que no se consumiere del cordero en este día debe ser quemado al fuego.`,
-  //   citas:
-  //     "Éxodo 12:1-28,43-49; Éxodo 16:12; Éxodo 34:24-25; Números 9:1-5; Levítico 23:4; Deuteronomio 16:1-8; Josué 5:10; 2Reyes 23:21-23; 2Crónicas 30:1-5; Esdras 6:19-21; Ezequiel 45:21-24; Mateo 26:17-19; Marcos 14:12-16; Lucas 2:41-42; Lucas 22:7-13,15; Juan 1:29; Juan 2:23; Juan 6:4; Juan 11:55; Juan 19:36; Hechos 12:4; 1Corintios 5:7; Apocalipsis 5:5-6",
+  //   fechaInicio: "06/11/23 18:30:00",
+  //   fechaFinal: "06/12/23 18:30:00",
+  //   descripcion: `En esta fiesta se conmemora la siega del trigo, se cuentan 50 días (7 semanas y un día) desde que se presenta la gavilla de cebada en Bikurim (Primicias) hasta el inicio de Shavuot (Semanas) en la cual se presenta la gavilla de trigo, a esta cuenta de las semanas también se le conoce como “cuenta del omer”, haciendo alusión a la medida de cebada ofrecida en Bikurim, y liga esta fiesta con el inicio de Shavuot. En Shavuot también fue entregada la Torah a los hijos de Israel en el monte Sinaí, y esto ocurrió 50 días después de haber salido de Mitzrayim (Egipto) y haber cruzado el Mar Rojo. Durante la fiesta de Shavuot el Eterno manda su Ruaj Hakodesh (Espíritu Santo) sobre sus discípulos, lo cuales se encontraban reunidos para la fiesta y esto pasó 50 días después de la resurrección del Mashiaj (Bikurim). En su preparación el Eterno manda a su pueblo a santificarse para la fiesta; Lavar sus vestidos (Mitveh), hacer Teshuvah (Arrepentimiento), no tocar mujer (Tener intimidad) y estar alegres y gozosos. Durante la fiesta además de la gavilla de trigo mecida, se presentan 2 panes con levadura, sacrificios de Expiación y Shalom; Estos últimos por la Sangre del Pacto Renovado de nuestro Mashiaj Yahshua, ya no son necesarios. Shavuot se conmemora como un Shabat (Reposo) y el Eterno manda no hacer ningún trabajo, ni nosotros ni nuestra casa, es un día kadosh (Apartado, Santificado) para el Eterno.`,
+  //   citas: `Génesis 27:28; Éxodo 19; Éxodo 20; Éxodo 23:16-19; Éxodo 34:22; Levítico 19:9-10; Levítico 23:15-21; Levítico 26:4-5; Números 28:26-31; Deuteronomio 11:13-14; Deuteronomio 16:9-12,16-17; Deuteronomio 24:1,19-22; Deuteronomio 25:4; Rut 1:6,22; Rut 2:2,17,23; 2 Crónicas 8:13; Salmo 67; Salmo 126:5-6; Proverbios 3; Isaías 28:28; Isaías 44:3; Isaías 53:2-7; Jeremías 31: 21-34; Jeremías 5:24-25; Oseas 6:1-3; Joel 1:10-17; Joel 2:23-24,28-29; Zacarías 10:1; Mateo 13:30; Juan 4:34-35; Juan 12:24; Juan 14:15-17, 24-25; Hechos 1:8; Hechos 2:1,4-5,9-11,22-24,30,36-37; Hechos 12:18-21; Hechos 20:16; 1 Corintios 9:9-10; 1 Corintios 16:8; 2 Corintios 9:6-9`,
   //   reflexiones: [
-  //     `La "muerte a los pecados" o "salir de Egipto" implica renunciar a los malos deseos de la carne para ser kadosh (apartado) delante del Eterno. Este hecho a su vez tiene su punto fundamental en un genuino Teshuvá (Arrepentimiento) el cual nos lleva a reconocer nuestra naturaleza pecaminosa y buscar nuestra redención (limpieza) en la Sangre de nuestro Mashiaj Yahshua, porque donde hay un teshuvá genuino no vuelve a haber pecado.`,
-  //     `En la fiesta el Eterno nos exhorta a llevar una vida sin levadura (Pecado, Orgullo) y ser humildes (Matzah), desechándola de nuestros corazones (Hogar espiritual). Por esta razón nuestro Adón Yahshua se comparó con el matzah (Pan ácimo) cuando comía la cena de Pesaj con sus Talmidín (Discípulos).`,
-  //     `El compartir el cordero asado entre familias pequeñas nos invita a ser compasivos, piadosos, generosos, unánimes y más con los creyentes y temerosos del Eterno.`,
-  //     `Pesaj singnifica "pasar por alto" o "salto" indicando que el Eterno no traería su juicio contra aquellos que se encontraran regocijados en sus hogares y cuyos dinteles y postes tenían la señal de sangre del sacrificio. En lo espiritual esto tiene mucha connotación, ya que el hogar hace referencia además del lugar físico a nuestro corazón. La Sangre es el creer, aceptar y obedecer el Sacrificio Perfecto (Yahshua Hamashiaj) y así estaremos protegidos de los juicios que el Eterno traerá sobre la tierra o las naciones (Egipto) al final de los tiempos. Nuestro corazón tiene una puerta la cual puede dejar entrar las cosas buenas o las cosas malas, si esa puerta fue marcada con la Sangre del Mashiaj, entrarán cosas buenas (santidad) y así debemos perseverar hasta el fin para ser salvos.`,
-  //     `En la cita Éxo 34:24 vemos que el pueblo tenía que dejar sus tierras para subir a Yahrushalayim (Jerusalén) a observar las fiestas del Eterno y Él les dijo que confiaran que las otras naciones no vendrían a robar sus tierras, porque ellas conocían el Poder y las Obras del Eterno y por ello temían ante el Nombre de YHWH; dándonos una lección de no poner nuestro corazón en las cosas terrenales sino en las espirituales (santidad al Eterno), obedeciendo su Torah.`,
-  //     `El pueblo tenía que subir a purificarse antes de Pesaj, no podía comer Pesaj siendo inmundo.`,
+  //     `Lo primero que tenemos que entender de Shavuot es que es una fiesta de agradecimiento y reconocimiento de la mano poderosa y bondadosa de Elohim, al dar el producto de la tierra para el sustento de su pueblo, como una señal de Bendición y Fidelidad a su Palabra. El sustenta todos los ciclos del universo y algo tan cotidiano (hablo como hombre) como la lluvia, es una promesa de amor y señal del Pacto que hizo el Todopoderoso con todos nosotros (hablo como pueblo de Israel), Él hace caer la lluvia temprana (Otoño) y la tardía (Primavera), para regar la tierra y prepararla para la siembra y posteriormente obtener una buena cosecha, lo cual es motivo de celebración, alegría y Shalom.`,
+  //     `La entrega de la Torah del Eterno (Mandamientos y Estatutos) y su bautismo con el Ruaj Hakodesh, son sucesos que están íntimamente ligados en lo espiritual, el primero representa la Palabra (“si oyeres Mi Voz”) que es la luz que alumbra el camino por donde hemos de andar, es la voluntad del Abba y sus instrucciones de vida. El Ruaj Hakodesh (Espíritu Santo) del Eterno es Poder espiritual para soportar las tentaciones y dar la “buena batalla”, por otra parte es fuente de conocimiento y sabiduría con la cual podemos recibir revelación de la Torah de Elohim y su correcto entendimiento, por eso el Adón Yahshua Hamashiaj dijo a sus discípulos, que muchas de las cosas que Él hablaba, ellos no las entendían, pero que su Ruaj vendría y les recordaría todas las cosas (“pondré Mi Torah en sus corazones”) y no sólo eso, sino que les daría el entendimiento para interpretarlas y enseñarlas, esto es lo que significa el verdadero Tevilah (Bautismo) del Ruaj Hakodesh y por esta razón, una persona, a quien no ha sido revelado este conocimiento, habla sin autoridad y con inseguridad porque no sabe lo que enseña y su doctrina son solo palabras huecas y vacías, como ocurría con los falsos profetas y los religiosos a los largo de las Escrituras. Es importante tener la Torah de Elohim y su Ruaj Hakodesh, para no desviarnos ni a la derecha ni a la izquierda de Su Voluntad, y llevar una vida justa y recta delante de Él. Moshé tenía que explicar la Torah al pueblo de Israel, atender y juzgar sus casos para hacer enseñar derecho y justicia a los israelitas, y él estaba lleno del Ruaj para esa labor que le encomendó el Eterno.`,
+  //     `Las fiestas son revelaciones proféticas que el Eterno dejó como señal de los grandes planes que tiene para su pueblo, Shavuot (Semanas) representa el compromiso de Boda del Eterno (Esposo) con Israel (Esposa), la entrega de su Torah es la Ketubah (Contrato nupcial) que sella (Pacto) y que Israel aceptó en el monte Sinaí. Pero fue infiel a Elohim e hizo dioses para sí (becerro de oro) y el Eterno le dio carta de divorcio (Torah del adulterio) y rompió su compromiso con la novia (Moshé quebró las tablas de la Torah), pero esto no fue definitivo. A lo largo de las Escrituras vemos como el Eterno perdona a Israel, su esposa, y una y otra vez renueva el pacto pero Israel como esposa rebelde se revela y engaña su Esposo, yendo tras lo baales y las costumbres de las naciones. El Sacrificio del Adón Yahshua es el perfeccionamiento de la Torah de los sacrificios y de muchas funciones de los kohanim (sacerdotes) que ya estaban muy contaminadas por la fornicación espiritual y cuyo propósito de acercar al pueblo (esposa) a su Elohim (Esposo) era menospreciado por sus líderes. La Sangre del Mashiaj, su muerte en Pesaj (grano de trigo que muere) y su resurrección en Bikurim (Primeros frutos) fue el plan del Eterno, desde el principio, para sembrar la tierra y recoger multitud de frutos en Shavuot, cuando después de derramar su Ruaj, ese día creyeron como tres mil, lo cual contrasta con las tres mil muertes que produjo la rebeldía de Israel y su fornicación con el becerro de oro. Este es el último Pacto hecho por el Eterno con la humanidad, quien quiera casarse con Él debe aceptarlo, aceptar su Sacrificio (Comer su carne y beber su sangre), hacer Teshuvah (Arrepentimiento) y obedecerlo (Hacedores de Su Torah), y Él por su inmensa Rajem (Gracia) nos salvará y nos hará su Esposa, Esta última la resalto en mayúscula porque habrá “Santidad a YHWH”.`,
+  //     `La fiesta de Bikurim (Primicias) como se ha mencionado representa la salida de Mitzrayim (Egipto), la libertad física del pueblo de Israel, es decir, somos esclavos de las consecuencias del pecado y al tomar la decisión de salir de esa vida empezamos a resolver esos asuntos, por otro lado Shavuot es mucho más profundo y espiritual, es una libertad del alma al conocer la Torah y empezar a estudiarle y entenderla, de esta manera empezamos el llamado “crecimiento espiritual”, que en otras palabras es llevar a la práctica lo que vamos aprendiendo de las Escrituras. Esto nos permite “abrir nuestros ojos espirituales” e identificar lo bueno de lo malo, como dijo Rav Shaul en el concilio relatado en el libro de los hechos, cuando se habló de la circuncisión y la Torah, la conclusión fue apartarles de las cosas que ellos identificaron, guiados por el Ruaj de Elohim, eran de mayor riesgo espiritual para ese grupo de hermanos en especial, porque tenían plena confianza que lo demás lo podían aprender poco a poco en las ministraciones de Torah de cada Shabat, es decir, en la Parashá semanal.`,
+  //     `Los dos panes de la fiesta simboliza a las dos casas de Israel, y la levadura es un recordatorio que hay pecado presente en nosotros y nunca debemos pensar en bajar la guardia y pensar que ya hemos alcanzado la santidad absoluta o que ya no tenemos nada de que arrepentirnos, todos los días (tomar la cruz cada día) debemos aprovecharlos en seguir edificándonos y apartándonos más y más para el Eterno, siendo humildes y no pensando con orgullo de nosotros mismos, arrepintiéndonos a la primera señal de pecado, antes de que este sea engendrado y orando al Eterno para que nos fortalezca y guarde del maligno.`,
+  //     `Como vemos en el libro de Joel, el Eterno por el pecado de Israel trajo sequía, hambruna, calor extremo, muerte, plagas, destrucción etc. Todos estos justos juicios afectaron la celebración de las fiestas, entre ellas la de Bikurim y Shavuot, cuando se presenta la gavilla de cebada en la primera y la gavilla de trigo en la segunda, como ofrenda mecida. En otras palabras el Eterno quitó el gozo y la alegría de conmemorar sus fiestas solemnes (Prosperidad), lo cual no era una carga y mucho menos una maldición para Israel, y todo esto porque se apartaron de Su Torah para hacer el mal e ir tras las costumbres de las naciones. ¡Despierta Israel!.`,
+  //     `Ya entendemos que la Torah de Elohim, es el contrato de Boda, la Ketubah, y ha estado presente desde el principio hasta el fin y por la Eternidad, dice el Salmista en el Salmo 119; “Guardaré tu Torah siempre, para siempre y eternamente”. Y vemos que el Eterno la enseño al hombre, desde Adán, para apartar a los suyos, por eso usamos el término kadosh, que significa apartado o santo. Su Torah hace de su pueblo, un pueblo especial (“Mi especial Tesoro”), de esta manera a lo largo de las Escrituras vemos que el Eterno usa palabras como señal y pacto para referirse a su relación con el pueblo, y la importancia de la Torah en nuestras vidas es tan imprescindible, que el mismo Eterno, manda que sea transmitida de generación en generación y la contemos a nuestros hijos porque será como señal en nuestras manos (nuestras obras) y frentes (alma y corazón), y si entendemos que ésta sólo puede ser revelada por el Ruaj Hakodesh y en el libro de Apocalipsis dice que cuando venga la marca del antimashiaj (anticristo), el Eterno también sellará a los suyos con su Ruaj, esto habla claramente que apartará a su pueblo de las naciones paganas (aquellos marcados por la bestia), como siempre lo ha hecho y salvará a los que perseveraron en Su Palabra (Torah) hasta el fin. Omén.`,
   //   ],
   // },
 ];
@@ -386,17 +381,38 @@ function pintarAnimacionFiesta({ nombre }) {
 
   if ($divPrincipal.clientWidth > large) {
     $tituloFiesta.className = "fiesta-activa-large";
-    // console.log("Grande");
+    console.log("Grande");
   } else if ($divPrincipal.clientWidth > medium) {
     $tituloFiesta.className = "fiesta-activa-medium";
-    // console.log("Mediano");
+    console.log("Mediano");
   } else if ($divPrincipal.clientWidth > small) {
     $tituloFiesta.className = "fiesta-activa-small";
-    // console.log("Pequeño");
+    console.log("Pequeño");
   }
 
   $reloj.className = "reloj-white";
   $divPrincipal.id = "principal-dark";
+}
+
+function ajusteTamañoAnimacion() {
+  if ($divPrincipal.id === "principal-dark") {
+    //Definiendo tamaños
+    const large = 700,
+      medium = 400,
+      small = 200;
+
+    //Validando tamaño de la animación
+    if ($divPrincipal.clientWidth > large) {
+      $tituloFiesta.className = "fiesta-activa-large";
+      // console.log("Grande");
+    } else if ($divPrincipal.clientWidth > medium) {
+      $tituloFiesta.className = "fiesta-activa-medium";
+      // console.log("Mediano");
+    } else if ($divPrincipal.clientWidth > small) {
+      $tituloFiesta.className = "fiesta-activa-small";
+      // console.log("Pequeño");
+    }
+  }
 }
 
 //Calcular dimensiones del contenido de las Fiestas
@@ -430,7 +446,7 @@ function tamañoSeccionFiestas() {
     let alturaBody = d.querySelector("body").offsetHeight,
       alturafooter = d.querySelector("footer").offsetHeight,
       tamañoSmallMenu = alturaMenu + $container.offsetTop + alturafooter;
-    // console.log(alturaBody, tamañoSmallMenu);
+    // console.log(alturaBody, tamañoSmallMenu, [d.querySelector("body")]);
 
     if (alturaBody > tamañoSmallMenu) {
       // console.log("El div Principal es más grande");
@@ -478,6 +494,9 @@ w.addEventListener("resize", (e) => {
 
   //calcular tamaño de la ventana principal
   calcularAltoBody();
+
+  //Ajustando tamaño de la animación en curso
+  ajusteTamañoAnimacion();
 });
 
 //Cargar seccion principal despues de cargar el HTML y los estilos

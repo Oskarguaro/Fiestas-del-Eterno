@@ -20,16 +20,10 @@
   scroll-behavior: smooth;
 }
 
-.body-desktop {
+body {
   position: relative;
-  background-image: url("../imagenes/fondo_festivo3.jpg");
+  background-image: url("../imagenes/fondo_festivo2.jpg");
   background-size: 100% auto;
-}
-
-.body-mobile {
-  position: relative;
-  background-image: url("../imagenes/fondo_festivo3.jpg");
-  background-size: auto 100%;
 }
 
 .d-none {
@@ -71,6 +65,7 @@ h1 {
   position: relative;
   background-color: black;
   border-bottom: 2px solid rgba(96, 224, 134, 0.5);
+  height: 100vh;
 }
 
 .reloj {
