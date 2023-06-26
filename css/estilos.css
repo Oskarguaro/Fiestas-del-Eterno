@@ -22,8 +22,8 @@
 
 body {
   position: relative;
-  background-image: url("../imagenes/fondo_festivo2.jpg");
-  background-size: 100% auto;
+  background-image: url("../imagenes/fondo_festivo3.jpg");
+  background-size: contain;
 }
 
 .d-none {

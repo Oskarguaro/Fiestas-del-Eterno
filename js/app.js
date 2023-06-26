@@ -126,9 +126,14 @@ let fiestasAnuales = [
     nombre: "Yom Teruah",
     fechaInicio: "09/15/23 18:30:00",
     fechaFinal: "09/16/23 18:30:00",
-    descripcion: "¿Qué se conmemora y cómo?",
-    citas: "cita",
-    reflexiones: ["Aquí van las reflexiones espirituales"],
+    descripcion: `También conocida como “Fiesta de las Trompetas” o “Sonar del Shofar”, el significado literal de la fiesta es Yom (Día) y Teruah o Truá (grito, alarma, sonido) que se hace con un instrumento, puede ser un shofar (Cuerno de carnero) o trompeta, por lo tanto es un día que se conmemora con gran sonido de alarma y se guarda como un Shabat (reposo), se convoca a la Kehilá (Congregación) de Israel a reunirse y ofrecer ofrenda encendida al Eterno. Yom Teruah marca el inició de las fiestas del otoño y su celebración simboliza el “despertar” del pueblo de Israel, el estar atentos o como dicen las Escrituras del Pacto Renovado (Nuevo Testamento) “Velando”, a la Voz de nuestro Elohim YHWH, es la invitación a prepararse (“erguios”) para el regreso del Mashiaj y estar vestidos (acciones justas) para La Boda. La alarma de Yom Teruah es un llamado a autoevaluarnos y a hacer Teshuvá (arrepentimiento) genuino para Yom Kippur (Día del Perdón o Expiación).`,
+    citas: `Levítico 23:23-25; Números 29:1-6; Josué 6:5; Nehemías 8:1-12; Números 10:2-10; Esdras 3:1,6; Nehemías 7:73; Jeremías 41:1; Mateo 24:29-36; 1 Corintios 15:51-52; 1 Tesalonicenses 4:15-17; Apocalipsis 10:7; Apocalipsis 11:15; Isaías 11:11; Isaías 13:9-11; Isaías 27:12-13; Miqueas 4:6-7; Sofonías 1:14`,
+    reflexiones: [
+      `Cada Yom Teruah anunciamos con gozo y esperanza la segunda venida del Mashiaj quien restaurará y pondrá en orden su creación. Por lo cual las señales escritas en el libro de Apocalipsis no debe ser motivo de miedo y preocupación porque será el inició de una Eternidad al lado de nuestro Creador.`,
+      `La Fiesta de Yom Teruah se relaciona con el natzal de la kehila (el gran rescate) ya que es la fiesta que nos alerta de estar atentos o despiertos para recibir al Adón, lo cual el Eterno lo enseñaba en parábolas “las diez vírgenes” y “Los talentos”.`,
+      `El Eterno hace caer en un gran sueño a Adán, que es semejanza a la muerte y de su costilla crea a su esposa Eva, y en el Pacto Renovado (Nuevo testamento) nuestro Mashiaj es traspasado en su costado y derrama su sangre para redimir y restaurar a la kehilá (congregación) de Israel, su Esposa.`,
+      `El toque se shofar o trompeta a lo largo de la Tanak aparece en muchos pasajes relacionados a la guerra. Las guerras antiguas que tuvo que afrontar el pueblo de Israel en cuyas batallas era Elohim quien peleaba por ellos para conquistar la Tierra Prometida, es una semejanza de las guerras espirituales y contra los deseos de la carne que debemos dar en nuestro interior para hallar Gracia delante de Elohim y poder entrar al Maljut Hashamayim (Reino de los Cielos). El sonido pues era una forma de mantenerse alertas y despiertos ante la batalla, de recobrar ánimos y poner su confianza en el Eterno. Uno de los pasajes más recordados es el gran ruido o estruendo que hizo el pueblo de Israel, por mandato de Elohim, ante las murallas de Jericó las cuales no prevalecieron ante el ejército del Todopoderoso. Las Escrituras también nos enseña que el Eterno dio Torah para convocar a los hijos de Israel y dar órdenes al pueblo.`,
+    ],
   },
   {
     nombre: "Yom Kippur",
