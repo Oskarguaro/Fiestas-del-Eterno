@@ -59,8 +59,8 @@ function removerAcentos(texto) {
 let fiestasAnuales = [
   {
     nombre: "Pesaj",
-    fechaInicio: "04/05/23 18:30:00",
-    fechaFinal: "04/06/23 18:30:00",
+    fechaInicio: "04/22/24 18:30:00",
+    fechaFinal: "04/23/24 18:30:00",
     descripcion: `La fiesta de Pesaj (Pasar por alto), conmemora la liberación de Israel de la esclavitud de Egipto y el sacrificio de nuestro Adón (Señor) Yahshua Hamashiaj. Ambos sucesos representan en lo espiritual la oportunidad de ser "libres del pecado". Inicia a la puesta de sol del día 14 de Aviv (Nisán) y finaliza a la puesta de sol del día siguiente. En la preparación para la fiesta se ordena apartar un cordero, macho de un 1 año sin defecto, por familia desde el día 10 de Aviv (Nisán), si la familia es muy pequeña se debe compartir con el vecino cercano. El cordero servirá de sacrificio el día de inicio de Pesaj y se comerá asado al fuego con matzah (pan sin levadura) y maror (hierbas amargas). Además el Eterno ordena no comer nada leudado y sacar toda la levadura de los hogares, ya que esta representa el "pecado". Todo lo que no se consumiere del cordero en este día debe ser quemado al fuego. Este día se considera y guarda como un Shabat (Día de Reposo).`,
     citas:
       "Éxodo 12:1-28,43-49; Éxodo 16:12; Éxodo 34:24-25; Números 9:1-5; Levítico 23:4; Deuteronomio 16:1-8; Josué 5:10; 2Reyes 23:21-23; 2Crónicas 30:1-5; Esdras 6:19-21; Ezequiel 45:21-24; Mateo 26:17-19; Marcos 14:12-16; Lucas 2:41-42; Lucas 22:7-13,15; Juan 1:29; Juan 2:23; Juan 6:4; Juan 11:55; Juan 19:36; Hechos 12:4; 1Corintios 5:7; Apocalipsis 5:5-6",
